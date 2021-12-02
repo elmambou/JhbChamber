@@ -12,18 +12,13 @@ fetch(requestURL)
         for (let i = 0; i < temples.length; i++) {
           let card = document.createElement('section');
           let name = document.createElement('h2');
-          let telephone= document.createElement('p');
+          let area= document.createElement('p');
           let image = document.createElement('img');
-          let email = document.createElement('p');
-          let address = document.createElement('p');
-          let ordinances = document.createElement('div');
-          let services = document.createElement('div');
-          let facilities = document.createElement('h3');
+          let location = document.createElement('p');
+          let upcomingEvents = document.createElement('div');
+          let population = document.createElement('h3');
           let contact = document.createElement('h3');
           let ord = document.createElement('h3');
-          let ordinanceDays = document.createElement('div');
-          let openings = document.createElement('div');
-          let closures = document.createElement('div');
           let history = document.createElement('div');
           let clo = document.createElement('h3');
           let histories = document.createElement('h3');
@@ -32,51 +27,24 @@ fetch(requestURL)
           let linebreak = document.createElement('br');
 
           name.textContent = temples[i].name;
-          telephone.textContent = "Telephone Number: " + temples[i].telephone;
-          email.textContent = "Email Address: " + temples[i].email;
-          address.textContent = "Temple Address: " + temples[i].address;
+          area.textContent = "Area of the City: " + temples[i].area;
+          location.textContent = "City Location: " + temples[i].location;
           image.setAttribute('src', temples[i].imageurl);
           image.setAttribute('alt', "Beautiful Image of " + temples[i].name);
-          facilities.textContent = "Facilities";
+          population.textContent = "population";
           contact.textContent = "Contact Information";
-          ord.textContent = "Ordinances";
-          ord2.textContent = "Opening Times";
-          ord3.textContent = "Avaliable Days";
+          ord3.textContent = "Available Days";
           clo.textContent = "Days Closed";
           histories.textContent = "Important Historical Dates";
           
           
-          for (let j = 0; j < temples[i].services.length; j++){
-            let service = document.createElement('p');
-            service.textContent = temples[i].services[j];
-            services.appendChild(service); 
+          for (let j = 0; j < temples[i].upcomingEvents.length; j++){
+            let event = document.createElement('p');
+            event.textContent = temples[i].upcomingEvents[j];
+            upcomingEvents.appendChild(event); 
          }
 
-         for (let l = 0; l < temples[i].ordinances.length; l++) {
-            let ordinance = document.createElement('p');
-            ordinance.textContent = temples[i].ordinances[l];
-            ordinances.appendChild(ordinance);
-         }
-
-         for (let k = 0; k < temples[i].ordinanceDays.length; k++) {
-            let ordinanceDay = document.createElement('p');
-            ordinanceDay.textContent = temples[i].ordinanceDays[k];
-            ordinanceDays.appendChild(ordinanceDay);
-         }
-
-         for (let f = 0; f < temples[i].openingHours.length; f++) {
-            let opening = document.createElement('p');
-            opening.textContent = temples[i].openingHours[f];
-            openings.appendChild(opening);
-         }
-
-         for (let h = 0; h < temples[i].closures.length; h++) {
-            let closure = document.createElement('p');
-            closure.textContent = temples[i].closures[h];
-            closures.appendChild(closure);
-         }
-
-         for (let a = 0; a < temples[i].history.length; a++) {
+          for (let a = 0; a < temples[i].history.length; a++) {
             let hist = document.createElement('p');
             hist.textContent = temples[i].history[a];
             history.appendChild(hist);
@@ -86,19 +54,14 @@ fetch(requestURL)
           card.appendChild(name); 
           card.appendChild(image);
           card.appendChild(contact);
-          card.appendChild(telephone);
-          card.appendChild(email);
-          card.appendChild(address); 
+          card.appendChild(area);
+          card.appendChild(location); 
           card.appendChild(ord);
-          card.appendChild(ordinances);
           card.appendChild(ord2);
-          card.appendChild(openings);
           card.appendChild(ord3);
-          card.appendChild(ordinanceDays);
-          card.appendChild(facilities);
-          card.appendChild(services);
+          card.appendChild(population);
+          card.appendChild(upcomingEvents);
           card.appendChild(clo);
-          card.appendChild(closures);
           card.appendChild(histories);
           card.appendChild(history);
            
