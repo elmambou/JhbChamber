@@ -38,12 +38,6 @@ fetch(requestURL)
           histories.textContent = "Important Historical Dates";
           
           
-          for (let j = 0; j < temples[i].upcomingEvents.length; j++){
-            let event = document.createElement('p');
-            event.textContent = temples[i].upcomingEvents[j];
-            upcomingEvents.appendChild(event); 
-         }
-
           for (let a = 0; a < temples[i].history.length; a++) {
             let hist = document.createElement('p');
             hist.textContent = temples[i].history[a];
