@@ -6,7 +6,7 @@
        "population": "(+27) 0860 600 999",
        "id": 993800,
        "history": ["Launched: 1971", "Owned by: Massmart Holdings Ltd", "Slogan: There is nothing else like it", "CEO: Mitch Slape", "Stores: 150", " Employees: 2 258"],
-       "upcomingEvents": ["Foods", "Appliances", "Electronics and Computers", "Home & Garden", "Healthy & Beauty", "Books, Stationery & Office Furniture"],
+       "event": ["Foods", "Appliances", "Electronics and Computers", "Home & Garden", "Healthy & Beauty", "Books, Stationery & Office Furniture"],
        "imageurl": "https://elmambou.github.io/JhbChamber/images/joburgtemple.jpg"
      },
      {
@@ -16,7 +16,7 @@
       "population": ["1,271,628", "Largest Township in South Africa"],
       "id": 2643743,
       "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "upcomingEvents": ["Soweto Summer Camp Fest, Dec. 03, 2021", "Festival of lights at Joburg Zoo, Nov. 25 to Jan. 02 2022", "Soweto Arts Festival TBA"],
+      "event": ["Soweto Summer Camp Fest, Dec. 03, 2021", "Festival of lights at Joburg Zoo, Nov. 25 to Jan. 02 2022", "Soweto Arts Festival TBA"],
       "imageurl": "https://elmambou.github.io/JhbChamber/images/londontemple.jpg"
     },
     {
@@ -26,7 +26,7 @@
       "population": ["1,271,628", "Largest Township in South Africa"],
       "id": 2643743,
       "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "upcomingEvents": ["Soweto Summer Camp Fest, Dec. 03, 2021", "Festival of lights at Joburg Zoo, Nov. 25 to Jan. 02 2022", "Soweto Arts Festival TBA"],
+      "event": ["Soweto Summer Camp Fest, Dec. 03, 2021", "Festival of lights at Joburg Zoo, Nov. 25 to Jan. 02 2022", "Soweto Arts Festival TBA"],
       "imageurl": "https://elmambou.github.io/JhbChamber/images/londontemple.jpg"
     },
     {
@@ -36,7 +36,7 @@
       "population": ["1,271,628", "Largest Township in South Africa"],
       "id": 2643743,
       "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "upcomingEvents": ["Soweto Summer Camp Fest, Dec. 03, 2021", "Festival of lights at Joburg Zoo, Nov. 25 to Jan. 02 2022", "Soweto Arts Festival TBA"],
+      "event": ["Soweto Summer Camp Fest, Dec. 03, 2021", "Festival of lights at Joburg Zoo, Nov. 25 to Jan. 02 2022", "Soweto Arts Festival TBA"],
       "imageurl": "https://elmambou.github.io/JhbChamber/images/londontemple.jpg"
     }  
    ]
