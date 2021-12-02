@@ -15,13 +15,14 @@ fetch(requestURL)
           let area= document.createElement('p');
           let image = document.createElement('img');
           let location = document.createElement('p');
-          let upcomingEvents = document.createElement('div');
+         
           let population = document.createElement('h3');
           let contact = document.createElement('h3');
           let ord = document.createElement('h3');
           let history = document.createElement('div');
           let clo = document.createElement('h3');
           let histories = document.createElement('h3');
+          let upcomingEvents = document.createElement('div');
           let ord2 = document.createElement('h3');
           let ord3 = document.createElement('h3');
           let linebreak = document.createElement('br');
@@ -29,13 +30,13 @@ fetch(requestURL)
           name.textContent = temples[i].name;
           area.textContent = "Area of the City: " + temples[i].area;
           location.textContent = "City Location: " + temples[i].location;
+          population.textContent = "population" + temples[i].population;
           image.setAttribute('src', temples[i].imageurl);
           image.setAttribute('alt', "Beautiful Image of " + temples[i].name);
-          population.textContent = "population";
-          contact.textContent = "Contact Information";
-          ord3.textContent = "Available Days";
-          clo.textContent = "Days Closed";
+         
+          contact.textContent = "City Information";
           histories.textContent = "Important Historical Dates";
+          upcomingEvents.textContent = "Upcoming Events";
           
           
           for (let a = 0; a < temples[i].history.length; a++) {
@@ -54,9 +55,9 @@ fetch(requestURL)
           card.appendChild(ord2);
           card.appendChild(ord3);
           card.appendChild(population);
-          card.appendChild(upcomingEvents);
           card.appendChild(clo);
           card.appendChild(histories);
+          card.appendChild(upcomingEvents);
           card.appendChild(history);
            
           // Adding to information to card class
