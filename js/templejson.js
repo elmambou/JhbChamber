@@ -15,14 +15,13 @@ fetch(requestURL)
           let area= document.createElement('p');
           let image = document.createElement('img');
           let location = document.createElement('p');
-         
-          let population = document.createElement('h3');
+          let population = document.createElement('p');
           let contact = document.createElement('h3');
+          let event = document.createElement('h3');
           let ord = document.createElement('h3');
           let history = document.createElement('div');
           let clo = document.createElement('h3');
           let histories = document.createElement('h3');
-          let upcomingEvents = document.createElement('div');
           let ord2 = document.createElement('h3');
           let ord3 = document.createElement('h3');
           let linebreak = document.createElement('br');
@@ -33,10 +32,9 @@ fetch(requestURL)
           population.textContent = "population" + temples[i].population;
           image.setAttribute('src', temples[i].imageurl);
           image.setAttribute('alt', "Beautiful Image of " + temples[i].name);
-         
           contact.textContent = "City Information";
-          histories.textContent = "Important Historical Dates";
-          upcomingEvents.textContent = "Upcoming Events";
+          histories.textContent = "Important Historical Facts";
+          event.textContent = "Upcoming Events";
           
           
           for (let a = 0; a < temples[i].history.length; a++) {
@@ -49,6 +47,7 @@ fetch(requestURL)
           card.appendChild(name); 
           card.appendChild(image);
           card.appendChild(contact);
+          card.appendChild(event);
           card.appendChild(area);
           card.appendChild(location); 
           card.appendChild(ord);
@@ -57,7 +56,6 @@ fetch(requestURL)
           card.appendChild(population);
           card.appendChild(clo);
           card.appendChild(histories);
-          card.appendChild(upcomingEvents);
           card.appendChild(history);
            
           // Adding to information to card class
