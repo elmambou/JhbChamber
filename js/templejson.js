@@ -16,11 +16,9 @@ fetch(requestURL)
           let image = document.createElement('img');
           let location = document.createElement('p');
           let population = document.createElement('p');
+          let event = document.createElement('p');
           let contact = document.createElement('h3');
           let ord = document.createElement('h3');
-          let event = document.createElement('div');
-          let events = document.createElement('h3');
-          let ord1 = document.createElement('h3')
           let history = document.createElement('div');
           let clo = document.createElement('h3');
           let histories = document.createElement('h3');
@@ -31,12 +29,13 @@ fetch(requestURL)
           name.textContent = temples[i].name;
           area.textContent = "Area of the City: " + temples[i].area;
           location.textContent = "City Location: " + temples[i].location;
-          population.textContent = "population" + temples[i].population;
+          population.textContent = "Population: " + temples[i].population;
+          event.textContent = "Upcoming Events: " + temples[i].event;
           image.setAttribute('src', temples[i].imageurl);
           image.setAttribute('alt', "Beautiful Image of " + temples[i].name);
           contact.textContent = "City Information";
           histories.textContent = "Important Historical Facts";
-          events.textContent = "Upcoming Events";
+          
           
           
           for (let a = 0; a < temples[i].history.length; a++) {
@@ -49,8 +48,6 @@ fetch(requestURL)
           card.appendChild(name); 
           card.appendChild(image);
           card.appendChild(contact);
-          card.appendChild(event);
-          card.appendChild(events);
           card.appendChild(area);
           card.appendChild(location); 
           card.appendChild(ord);
@@ -58,6 +55,7 @@ fetch(requestURL)
           card.appendChild(ord3);
           card.appendChild(population);
           card.appendChild(clo);
+          card.appendChild(event);
           card.appendChild(histories);
           card.appendChild(history);
            
