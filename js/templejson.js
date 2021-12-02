@@ -1,5 +1,5 @@
 // JSON Files
-const requestURL = "https://github.com/elmambou/JhbChamber/json/temples.json";
+const requestURL = "https://elmambou.github.io/JhbChamber/json/temples.json";
 
 fetch(requestURL)
     .then(function (response){
