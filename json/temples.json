@@ -12,7 +12,7 @@
        "ordinanceDays": ["Friday 20 December 2019 - Saturday 21 December 2019", "27 December 2019 - 28 December 2019"],
        "openingHours": ["8:30 A.M. - 5:30 PM"],
        "closures": ["Saturday 25 December, 2021", "Saturday January 1, 2022", "Sunday April 10, 2022"],
-       "imageurl": "https://mickym23.github.io/lesson13/images/joburgtemple.jpg"
+       "imageurl": "https://github.com/elmambou/JhbChamber/images/joburgtemple.jpg"
      },
      {
       "name": "London, England Temple",
@@ -27,7 +27,7 @@
        "ordinanceDays": ["Friday 20 December 2019 - Saturday 21 December 2019", "27 December 2019 - 28 December 2019"],
        "openingHours": ["8:30 A.M. - 5:30 PM"],
        "closures": ["Tuesday, 17 December 2019 - 21 December 2019", "Tuesday, 24 December 2019 - Thursday, 26 December 2019", "Tuesday, 31 December 2019 - Thursday, 2 January 2020"],
-       "imageurl": "https://mickym23.github.io/lesson13/images/londontemple.jpg"
+       "imageurl": "https://github.com/elmambou/JhbChamber/images/londontemple.jpg"
     },
     {
       "name": "Rexburg, Idaho, United States Temple",
@@ -42,7 +42,7 @@
       "ordinanceDays": ["Friday 20 December 2019 - Saturday 21 December 2019", "26 December 2019 - 28 December 2019"],
       "openingHours": ["8:30 A.M. - 5:30 PM"],
       "closures": ["Tuesday, 24 December 2019 - Thursday, 25 December 2019", "Tuesday, 31 December 2019 - Thursday, 1 January 2020"],
-      "imageurl": "https://mickym23.github.io/lesson13/images/rexburgtemple.jpg"
+      "imageurl": "https://github.com/elmambou/JhbChamber/images/rexburgtemple.jpg"
     },
     {
       "name": "Curitiba, Brazil Temple",
@@ -57,7 +57,7 @@
       "ordinanceDays": ["Friday 20 December 2019 - Saturday 21 December 2019", "26 December 2019 - 28 December 2019"],
       "openingHours": ["8:30 A.M. - 5:30 PM"],
       "closures": ["Tuesday, 24 December 2019 - Thursday, 25 December 2019", "Tuesday, 31 December 2019 - Thursday, 1 January 2020"],
-      "imageurl": "https://mickym23.github.io/lesson13/images/curitibatemple.jpg"
+      "imageurl": "https://github.com/elmambou/JhbChamber/images/curitibatemple.jpg"
     }  
    ]
    }
