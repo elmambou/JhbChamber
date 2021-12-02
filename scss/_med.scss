@@ -1,0 +1,135 @@
+@media only screen and (min-width: 750px) {
+.navigation {
+   display: flex;
+}
+
+.navigation li:first-child {
+   display: none;
+}
+
+.navigation li,
+.dropdown {
+   display: block;
+   flex: 1 1 100%;
+}
+
+nav a {
+   font-size: 1rem;
+}
+
+.bannerimage {
+   width: 65%;
+}
+
+.reservationBox {
+   width: 65%;
+   img {
+      width: 65%;
+   }
+}
+
+.reviews {
+   width: 70%;
+}
+
+.hometemple {
+   width: 65%;
+
+   P {
+      width: 60%;
+      padding: 2%;
+   }
+
+   img {
+      width: 65%;
+   }
+   h4 {
+      font-size: 1.5rem;
+   }
+}
+
+.moroni {
+   margin: 0;
+   width: 75%;
+}
+
+.templetitle {
+   width: 75%;
+}
+
+div.cards { 
+   grid-template-columns: auto auto;
+   width: 75%;
+
+   img {
+      width: 80%;
+   }
+}
+.googlemaps {
+   padding-left: 5%;
+   width: 450px;
+   height: 350px;
+}
+
+.cinfo {
+   display: inline-flex;
+   row-gap: 3px;
+   p {
+      padding-left: 5%;
+      color: black;
+      text-align: left;
+   }
+}
+
+
+.contactmain {
+   margin: 0 auto;
+   max-width: 75%;
+}
+
+.servicegrid {
+   max-width: 80%;
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+.amenities {
+   display:grid;
+}
+
+.specialservices {
+   display:grid;
+}
+
+.weddingportal, .missionaryportal {
+   margin: 0 auto;
+   width: 80%;
+
+   img {
+      width: 50%;
+   }
+
+}
+
+.weddingvens {
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   picture img {
+      width: 70%;
+   }
+}
+
+.suites {
+   margin: 0 auto;
+   width: 40%;
+   img {
+      width: 100%;
+   }
+}
+
+.flexcontainer {
+   margin: 0 auto;
+   width: 65%;
+}
+
+}

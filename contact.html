@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<!-- Define Language Set-->
+<html lang="en-us">
+
+   <head>
+
+      <!-- Meta Information -->
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <meta name = "description" content = "Home Page, Johannesburg Chamber of Commerce, Term Project CIT230, Mikhail Cedras">
+      <title>Contact | Johannesburg Chamber of Commerce</title> 
+
+   <!-- Importing CSS Files -->
+   <link rel = "stylesheet" href = "css/styles.css">   
+
+   <!-- Importing favicon.io file -->
+   <link rel = "shortcut icon" href = "images/favicon.ico">
+
+</head>
+
+<body>
+<header>
+
+   <picture>
+      <img class = "logo" src = "images/logo.jpg" alt = "The Temple Inn Logo">
+   </picture>
+
+   <h1 class = "headerTitle">Johannesburg Chamber of Commerce</h1>
+
+</header>
+
+
+ <!-- Navigation Bar -->   
+ <nav>
+      <ul class="navigation">
+         <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+         <li><a href="index.html">Home</a></li>
+         <li><a href = "temple.html">Temples</a></li>
+         <li><a href="services.html">Services</a>
+         <li><a href = "reservation.html">Reservations</a></li>
+         <li><a class = "active" href = "contact.html">Contact Us</a></li>
+      </ul>
+   </nav>
+
+<main class = "contactmain">
+   <h1 class = "contactitle">Contact Us</h1>
+
+   <section class = "cinfo">
+   <iframe class = "googlemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370285027!2d-77.097720485002!3d38.98325594948441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sza!4v1576905209333!5m2!1sen!2sza" width="200" height="200" style="border:0;"></iframe>
+   <p>
+         &#9742;: +380 081 771 7116 <br>
+         &#9993;: templesinn@business.com <br>
+         <span class = "italic">Address: 4800 Montgomery Ln #300, Bethesda, MD 20814</span>
+       </p>
+   </section><br><br>
+
+   <form method = "get" action="js/thankyou.js">
+      <fieldset>
+         <legend>Contact Form</legend>
+
+          <!-- Full Name Input -->
+          <label>Full Name* <input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label><br><br>
+
+          <!-- Email Address Input -->
+          <label>Email Address <input type="email" name="email" placeholder="someone123@company.com"></label><br><br>
+
+          <label>Additional Infomation<textarea name="addDetails" placeholder = "Write Comments Here..."
+            maxlength="2048"></textarea></label>
+         
+            <br><button type="button" onclick="messageUser()">Submit</button>
+      </fieldset>
+   </form>
+</main>
+
+
+
+
+   
+<footer>
+      <p>&copy; The Temple Inn and Suites | <a id="byuiLink" href="https://www.byui.edu/online">BYU-Idaho Online Learning</a> | Mikhail Malvern Cedras</p>
+      <p>Material that helped make this site can be found here: <a href = "resources.html">Resources</a></p>
+      <p id = fullDate></p>
+</footer>     
+
+<!-- All JS Done in Scripts.js file -->
+<script src = "js/date.js"></script>
+
+<script src ="js/nav.js"></script>
+
+<!-- Web Font External JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+
+<script src = "js/contactwebfont.js"></script>
+
+<script src = "js/thankyou.js"></script>
+</body>
+</html>

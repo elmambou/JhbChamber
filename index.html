@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+   <head>
+      <!-- Meta Information -->
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <meta name = "description" content = "Home Page, Johannesburg Chamber of Commerce, Term Project CIT230, Mikhail Cedras">
+      <title>Home | Johannesburg Chamber of Commerce</title> 
+
+   <!-- Importing CSS File -->
+   <link rel = "stylesheet" href = "css/styles.css">   
+
+   <!-- Importing favicon.io file -->
+   <link rel = "shortcut icon" href = "images/favicon.ico">
+</head>
+
+<body>
+<header>
+   <!-- Logo -->
+   <picture>
+      <img class = "logo" src = "images/logo.jpg" alt = "The Temple Inn Logo">
+   </picture>
+   <h1 class = "headerTitle">Johannesburg Chamber of Commerce</h1>
+</header>
+
+ <!-- Navigation Bar -->   
+ <nav>
+      <ul class="navigation">
+         <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+         <li><a class = "active" href="index.html">Home</a></li>
+         <li><a href = "temple.html">Temples</a></li>
+         <li><a href="services.html">Services</a>
+         <li><a href = "reservation.html">Reservations</a></li>
+         <li><a href = "contact.html">Contact Us</a></li>
+      </ul>
+   </nav>
+
+<main>
+   <picture>
+      <img class = "bannerimage" src = "images/bannerhome.jpg" alt = "Interior of Temple Inn's Suites">
+   </picture>
+
+   <section class = "reservationBox">
+   <h2>Reservations Can Be Completed Online!</h2>
+   <a href = "reservation.html"><img src = "images/reservationbell.jpg" alt = "Bell on Counter for Reservation"><br></a>
+
+   <form action="reservation.html">
+      <button class= "reservationButton" type="submit">Join Now</button>
+   </form>
+   </section>
+
+   <section class = "reviews">
+   <h3>Trade Documentation</h3>
+   <p class = "left">
+    <strong>JCCI MANUAL CERTIFICATES OF ORIGIN</strong><br>
+      
+      Certificates of Origin are issued by Chambers of Commerce.  As per the International Chamber of Commerce:
+      "A Certificate of Origin is an important international trade document that certifies that goods in a particular
+      export shipment are wholly obtained, produced, manufactured or processed in a particular country. 
+      They declare the 'nationality' of the product and also serve as a declaration by the exporter to satisfy customs or trade requirements.
+   </p>
+   <p class = "right">
+      Should you need a Chamber Certificate of Origin, please contact:<br>
+      Certificate of Origin Controller - Elsie Muller   elsie@jcci.co.za or<br>
+      Trade Officer - Nqobile Maphanga nqobile@jcci.co.za
+   </p>
+   <p class = "left">
+     <strong>ELECTRONIC CERTIFICATES OF ORIGIN</strong><br>
+     JCCI has issued manual certificates of origin for decade, however, in 2015 an electronic certificate platform was introduced.
+     This has now upgraded to the next generation electronic Certificate of Origin platform, namely:  essCert.<br>
+     <strong>essCert</strong>,  our service provider, combines the best electronic solutions to offer the world’s most powerful eCO solution. 
+   </p>
+   <p class = "right">
+      To register go to https://www.esscert.com/register/  and enter the required fields<br>
+      For more information about essCert Electronic Certificates contact:<br>
+      Elsie Muller or Nqobile Maphanga  011 726-5300
+   </p>
+   </section>
+
+   <section class = "hometemple">
+      <h4>Johannesburg Council Chamber</h4>
+      <img src = "images/nauvotemple.jpg" alt = "Beautiful Image of the Nauvoo Temple">
+      <p>The Chamber is an independent, non-political, subscription-based association dedicated to promoting a business-friendly environment.
+         Our members are drawn from every sector of the economy, and range from independent entrepreneurs to the large corporate.
+         We are a key player in the promotion and facilitation of international trade and an impartial third party which enables us to 
+         negotiate contracts and secure funding for projects that benefit its membership. We promote enterprise development, skills development
+         training and business advisory services.. <br>
+         (Information and Image Provided by)<br>
+         <a href = "http://www.jcci.co.za/">The Johannesburg Chamber of Commerce</a>
+      </p>
+
+   </section>
+
+   <!-- Contact Information -->
+   <section class = "contact">
+     <h4>Contact Us</h4>
+     <p>
+     &#9742;: +380 081 771 7116 <br>
+     &#9993;: templesinn@business.com <br>
+     </section>  
+</main>
+
+<footer>
+      <p>&copy; The Temple Inn and Suites | <a id="byuiLink" href="https://www.byui.edu/online">BYU-Idaho Online Learning</a> | Mikhail Malvern Cedras</p>
+      <p>Material that helped make this site can be found here: <a href = "resources.html">Resources</a></p>
+      <p id = fullDate></p>
+</footer>
+
+<!-- Web Font External JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>      
+
+<!-- Date JS file -->
+<script src = "js/date.js"></script>
+
+<!-- Navigation 'Hamburger' Bar -->
+<script src = "js/nav.js"></script>
+
+<!-- JS Font Load -->
+<script src = "js/webfont.js"></script>
+</body>
+</html>

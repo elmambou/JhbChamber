@@ -1,0 +1,40 @@
+@media only screen and (min-width: 60em) {
+.logo {
+   width:35%;
+}
+
+header {
+   padding: 1%;
+}
+
+header .headerTitle {
+   margin: 0 0 0 -4%;
+}
+
+main {
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+}
+
+.bannerimage {
+   width: 65%;
+}
+
+.googlemaps {
+   width: 500px;
+   height: 500px;
+}
+
+.reservationBox {
+  width: 65%;
+  img {
+     width: 60%;
+  }
+}
+
+.reviews {
+   width: 65%;
+}
+}
+
