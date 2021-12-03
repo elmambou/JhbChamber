@@ -85,7 +85,7 @@ main {
    width: 100%;
 }
 
-.reservationBox {
+.joinBox {
    text-align: center;
    justify-content: center;
    font-family: $parisienne;
@@ -94,11 +94,11 @@ main {
    border: solid black 1.2px;
 }
 
-.reservationBox img {
+.joinBox img {
    width: 90%;
 }
 
-.reservationButton {
+.joinButton {
    padding-top: 1%;
    padding-bottom: 1%;
    padding: 2%; 
@@ -251,7 +251,7 @@ div.cards {
    }
 }
 
-.servicetitle {
+.directorytitle {
    font-family: $poiretone;
 }
 
@@ -271,7 +271,7 @@ div.cards {
    padding: 2%;
 }
 
-.servicegrid {
+.directorygrid {
    font-family: $poiretone;
    display: grid;
    grid-template-columns: auto;

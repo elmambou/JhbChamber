@@ -520,7 +520,7 @@ main {
   width: 100%;
 }
 
-.reservationBox {
+.joinBox {
   text-align: center;
   justify-content: center;
   font-family: "Parisienne";
@@ -529,11 +529,11 @@ main {
   border: solid black 1.2px;
 }
 
-.reservationBox img {
+.joinBox img {
   width: 90%;
 }
 
-.reservationButton {
+.joinButton {
   padding-top: 1%;
   padding-bottom: 1%;
   padding: 2%;
@@ -563,26 +563,26 @@ main {
   text-align: right;
 }
 
-.hometemple {
+.homecity {
   font-family: "Poiret One";
   margin: 0 auto;
   max-width: 100%;
 }
 
-.hometemple h4 {
+.homecity h4 {
   font-size: 1.1rem;
 }
 
-.hometemple img {
+.homecity img {
   width: 100%;
 }
 
-.hometemple p {
+.homecity p {
   margin: 0 auto;
   font-weight: bold;
 }
 
-.hometemple a:link, .hometemple a:visited {
+.homecity a:link, .homecity a:visited {
   color: inherit;
 }
 
@@ -603,7 +603,7 @@ main {
   width: 100%;
 }
 
-.templetitle {
+.citytitle {
   margin: 0 auto;
   width: 100%;
   color: #edf7f6;
@@ -694,7 +694,7 @@ div.cards section:nth-child(3), div.cards section:nth-child(4) {
   width: 150px;
 }
 
-.servicetitle {
+.directorytitle {
   font-family: "Poiret One";
 }
 
@@ -714,7 +714,7 @@ div.cards section:nth-child(3), div.cards section:nth-child(4) {
   padding: 2%;
 }
 
-.servicegrid {
+.directorygrid {
   font-family: "Poiret One";
   display: grid;
   grid-template-columns: auto;
@@ -911,33 +911,33 @@ footer, .contact {
   .bannerimage {
     width: 65%;
   }
-  .reservationBox {
+  .joinBox {
     width: 65%;
   }
-  .reservationBox img {
+  .joinBox img {
     width: 65%;
   }
   .reviews {
     width: 70%;
   }
-  .hometemple {
+  .homecity {
     width: 65%;
   }
-  .hometemple P {
+  .homecity P {
     width: 60%;
     padding: 2%;
   }
-  .hometemple img {
+  .homecity img {
     width: 65%;
   }
-  .hometemple h4 {
+  .homecity h4 {
     font-size: 1.5rem;
   }
   .moroni {
     margin: 0;
     width: 75%;
   }
-  .templetitle {
+  .citytitle {
     width: 75%;
   }
   div.cards {
@@ -965,7 +965,7 @@ footer, .contact {
     margin: 0 auto;
     max-width: 75%;
   }
-  .servicegrid {
+  .directorygrid {
     max-width: 80%;
     display: grid;
     grid-template-columns: auto auto;
@@ -1025,10 +1025,10 @@ footer, .contact {
     width: 500px;
     height: 500px;
   }
-  .reservationBox {
+  .joinBox {
     width: 65%;
   }
-  .reservationBox img {
+  .joinBox img {
     width: 60%;
   }
   .reviews {
