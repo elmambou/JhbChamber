@@ -41,48 +41,56 @@
          <div class = "flexcontainer">
          <form method ="get" action ="js/thankyou.js">
              <fieldset>
-                 <legend>Booker's Information</legend>
+                 <legend>Membership Information</legend>
                  <ul class="resform">
                  <li class="row">
-                 <label for="name">*Name:</label><input type="text" id="name"></li>
+                 <label for="name">First Name*:<input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label></li>
                  <li class="row">
-                 <label for = "email">*Email:</label><input type="text" id="email"></li>
+                 <label for="lastname">Last Name*:<input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label></li>
                  <li class="row">
-                 <label for = "phone">*Phone:</label><input type="tel" id="phone"></li>
+                 <label for = "email">Email Address*:<input type="email" name="email" placeholder="someone123@company.com"></label></li>
+                 <li class="row">
+                 <label for = "phone">Cellphone*:<input type="tel" name="phone" required></label></li>
                  <li class = "row">
-                 <label for = "homeLocation">*Home State/Country</label><input type="text" id="homeLocation"></li>
+                 <label for = "businessname">Business Name*:<input type="text" pattern="[A-Za-Z]{5,}" required></label></li>
+                 <li class = "row">
+                 <label for = "address">Business Address*:<input type="text" id="address"></label></li>
+                 <li class = "row">
+                 <label for = "website">Business website*:<input type="text" id="website"></label></li>
+                 <li class="row">
+                 <label for = "descp">Business Description*:<input type="text" id="descp"></label></li>
                  </ul>
              </fieldset>
 
              <fieldset>
-               <legend>Room Booking</legend>
+               <legend>Membership Options</legend>
                      <ul class="resform">
-                     <li class="row">
-                     <label for = "dest">Destination Location:</label><input type="text" id="dest"></li>
-                     <li class="date">
-                     <label for ="arrivalDate">Arrival: </label><input type="date" id="arrivalDate" required></li>
-                     <li class="date"><label for = "departureDate">Departure: </label><input type="date" id="departureDate" required></li>
-                     <li class="row"><label for = "amountOfRooms">Number of Rooms:</label>
-                             <select id="amountOfRooms" name="rooms"> 
-                             <option value disabled selected>Number of Rooms</option> 
-                             <option value="1">1</option>
-                             <option value="2">2</option>
-                             <option value="3">3</option>
-                             <option value="4">4</option>
-                             <option  value="5+andmore">5+</option>
-                     </select>
+                     <li class="date"> <label for ="joiningDate">Arrival: </label><input type="date" id="joiningDate" required></li>
+                     <li class="row"><label for = "annualFees">Membership Fee:</label>
+                             <select id="annualFees" name="fees"> 
+                             <option value disabled selected>Sponsorship Level</option> 
+                             <option value="1">Non-profit($100)</option>
+                             <option value="2">Bronze($200)</option>
+                             <option value="3">Silver($400)</option>
+                             <option value="4">Gold($1000)</option>
+                             </select>
                      </li>
-                     <li class="row"><label for="roomType">Room Type:</label>
-                             <select id="roomType" name="typeofroom"> 
-                             <option value disabled selected>Room Type</option> 
-                             <option value="single">Single Bed</option>
-                             <option value="double">Double Bed</option>
-                             <option value="queen">Queen-Size Bed</option>
-                             <option value="king">King-Size Bed</option>
+                     <li class="row"><label for="membershipType">Membership Type:</label>
+                             <select id="membershipType" name="typeofmembership"> 
+                             <option value disabled selected>Membership Type</option> 
+                             <option value="listing">Directory Listings</option>
+                             <option value="training">Business Training</option>
+                             <option value="social">Social Media Post</option>
+                             <option value="luncheon">Luncheon Ticket</option>
                              </select>
                      </li>
                      </ul>
-                     </fieldset>
+                     </fieldset><br>
+                     <fieldset>
+                        <legend>Additional Details</legend>
+                        <label class="top">Please enter additional information<br> <textarea name="addDetails" placeholder = "Type here..."
+                         maxlength="2048"></textarea></label>
+                     </fieldset><br>
                      <button class="resbutton" type = "button" onclick="thankYou()" >Submit</button>
                  </form>
                  </div>
