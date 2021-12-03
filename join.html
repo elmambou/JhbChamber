@@ -43,14 +43,24 @@
          <form method ="GET" action ="js/thankyou.js">
              <fieldset>
                  <legend>Membership Information</legend>
-                 <label class="top">First Name*<input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label>
-                 <label class="top">Last Name*<input type="text" name="lastname" pattern="[A-Za-Z]{5,}" required></label>
-                 <label class = "top">Email Address*<input type="email" name="email" placeholder="someone123@company.com" required></label>
-                 <label class = "phone">Cellphone<input type="tel" name="phone" required></label>
-                 <label class = "top">Business Name*<input type="text" pattern="[A-Za-Z]{5,}" required></label>
-                 <label class = "address">Business Address<input type="text" id="address"></label>
-                 <label class = "website">Business website<input type="text" id="website"></label>
-                 <label class = "descp">Business Description<input type="text" id="descp"></label>
+                 <ul class="resform">
+                  <li class="row">
+                 <label for ="top">First Name*</label><input type="text" name="name" pattern="[A-Za-Z]{5,}" required></li>
+                 <li class="row">
+                 <label for="top">Last Name*</label><input type="text" name="lastname" pattern="[A-Za-Z]{5,}" required></li>
+                 <li class="row">
+                 <label for = "top">Email Address*</label><input type="email" name="email" placeholder="someone123@company.com" required></li>
+                 <li class="row">
+                 <label for = "phone">Cellphone</label><input type="tel" name="phone" required></li>
+                 <li class="row">
+                 <label for = "top">Business Name*</label><input type="text" pattern="[A-Za-Z]{5,}" required></li>
+                 <li class="row">
+                 <label for = "address">Business Address</label><input type="text" id="address"></li>
+                 <li class="row">
+                 <label for = "website">Business website</label><input type="text" id="website"></li>
+                 <li class="row">
+                 <label for = "descp">Business Description</label><input type="text" id="descp"></li>
+                 </ul>
              </fieldset><br>
                      
 
