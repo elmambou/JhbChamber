@@ -37,80 +37,98 @@
       </ul>
    </nav>
 
-   <main class = "resmain">
-         <h2 class="resheader">Johannesburg Chamber of Commerce</h2>
-         <div class = "flexcontainer">
-         <form method ="GET" action ="js/thankyou.js">
-             <fieldset>
-             <!--    <legend>Membership Information</legend>
-                 <ul class="resform">
-                  <li class="row">
-                 <label for ="top">First Name*</label><input type="text" name="name" pattern="[A-Za-Z]{5,}" required></li>
-                 <li class="row">
-                 <label for="top">Last Name*</label><input type="text" name="lastname" pattern="[A-Za-Z]{5,}" required></li>
-                 <li class="row">
-                 <label for = "top">Email Address*</label><input type="email" name="email" placeholder="someone123@company.com" required></li>
-                 <li class="row">
-                 <label for = "phone">Cellphone</label><input type="tel" name="phone" required></li>
-                 <li class="row">
-                 <label for = "top">Business Name*</label><input type="text" pattern="[A-Za-Z]{5,}" required></li>
-                 <li class="row">
-                 <label for = "address">Business Address</label><input type="text" id="address"></li>
-                 <li class="row">
-                 <label for = "website">Business website</label><input type="text" id="website"></li>
-                 <li class="row">
-                 <label for = "desc">Business Description</label><input type="text" id="desc"></li>
-                 </ul>
-             </fieldset><br>   -->
-             <legend>Reporter Details</legend>
+   <main>
 
-             <!-- First and Last Name Inputs -->
-             <label class="top">First Name* <input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label>
-             <label class="top">Last Name* <input type="text" name="lastname" pattern="[A-Za-Z]{5,}" required></label>
-             <!-- Cellphone Number Input -->
-             <label class="top">Cellphone* <input type="tel" name="phone"></label>
-             <!-- Email Address Input -->
-             <label class="top">Email Address <input type="text" name="email" required></label>
-             <!-- Business Name Input -->
-             <label class="top">Business Name* <input type="text" name="businessname" required></label>
-             <!-- Business Address Input -->
-             <label class="address">Business Address*<input type="text" name="address"></label>
-             <!-- Business Description Input -->
-             <label class="desc">Business Description<input type="text" name="businessdescription"> </label>
-             </fieldset><br> 
-             
+      <!-- Header for Storm Center-->
+      <h2>Storm Center</h2>
+
+         <!-- If submission successful, redirect to thanks.html with GET method-->
+         <form method="GET" action="thanks.html">
+
+            <!-- Reporter Details Section -->
             <fieldset>
-               <legend>Membership Options</legend>
-                     <ul class="resform">
-                     <li class="date"> <label for ="joiningDate">Arrival: </label><input type="date" id="joiningDate" required></li>
-                     <li class="row"><label for = "annualFees">Membership Fee:</label>
-                             <select id="annualFees" name="fees"> 
-                             <option value disabled selected>Sponsorship Level</option> 
-                             <option value="1">Non-profit($100)</option>
-                             <option value="2">Bronze($200)</option>
-                             <option value="3">Silver($400)</option>
-                             <option value="4">Gold($1000)</option>
-                             </select>
-                     </li>
-                     <li class="row"><label for="membershipType">Membership Type:</label>
-                             <select id="membershipType" name="typeofmembership"> 
-                             <option value disabled selected>Membership Type</option> 
-                             <option value="listing">Directory Listings</option>
-                             <option value="training">Business Training</option>
-                             <option value="social">Social Media Post</option>
-                             <option value="luncheon">Luncheon Ticket</option>
-                             </select>
-                     </li>
-                     </ul>
-                     </fieldset><br>
-                     <fieldset>
-                        <legend>Additional Details</legend>
-                        <label class="top">Please enter additional information<br> <textarea name="addDetails" placeholder = "Type here..."
-                         maxlength="2048"></textarea></label>
-                     </fieldset><br>
-                     <button class="resbutton" type = "button" onclick="thankYou()" >Submit</button>
-                 </form>
-                 </div>
+               <legend>Reporter Details</legend>
+
+               <!-- Full Name Input -->
+               <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label>
+
+               <!-- Email Address Input -->
+               <label class="top email">Email Address <input type="email" name="email" placeholder="someone123@company.com"></label>
+
+               <!-- Phone Number Input -->
+               <label class="top">Phone Number* <input type="tel" name="phone" required></label>
+
+               <!-- Zip Code Input -->
+               <label class="top">Zip Code* <input type="number" name="zip" required></label>
+
+            </fieldset><br>
+
+            <!-- Storm Details Section -->
+            <fieldset>
+               <legend>Storm Details</legend>
+
+               <!-- Storm Date Input -->
+               <label class="top">Storm Date <input type="date" name="stormDate"></label>
+
+               <!-- Storm Type Input with datalist options -->
+               <label class="top">Storm Type<input type="text" list="storms" name="stormType"><datalist id="storms">
+                  <option value="Flash Flood">Flash Flood</option>
+                  <option value="Hail">Hail</option>
+                  <option value="Hurricane">Hurricane</option>
+                  <option value="Thunderstorm">Thunderstorm</option>
+                  <option value="Tornado">Tornado</option>
+               </datalist></label>
+
+               <!-- Storm Severity Slider -->
+               <label class="flexStorm" for="rating">Storm Severity (1 - 10)&nbsp;&nbsp;&nbsp;<input type="range" id="rating" value="5" min="1" 
+                  max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" 
+                  onchange="adjustRating(this.value)">
+                  <span id="ratingvalue">5</span>
+               </label>
+            
+               <!-- Tickmark datalist -->
+               <datalist id="tickmarks">
+               <option value="0">
+               <option value="1">
+               <option value="2">
+               <option value="3">
+               <option value="4">
+               <option value="5">
+               <option value="6">
+               <option value="7">
+               <option value="8">
+               <option value="9">
+               <option value="10">
+               </datalist>
+
+               <!-- Storm Region Selector, with Default 'Select Region' -->
+               <label class="top">Storm Region  <select name="stormRegion">
+                  <option value="">Select Region</option>
+                  <option value="fishhaven">Fish Haven</option>
+                  <option value="preston">Preston</option>
+                  <option value="sodasprings">Soda Springs</option>
+               </select></label>
+
+               <!-- User In Danger Radio Buttons -->
+               <div>User in Danger Level</div>
+               <label class="radioB"><input type="radio" name="audience" value="yes"> Yes</label>
+               <label class="radioB"><input type="radio" name="audience" value="maybe"> Maybe</label>
+               <label class="radioB"><input type="radio" name="audience" value="no"> No</label>
+            </fieldset><br>
+
+            <!-- Additional Details Section -->
+            <fieldset>
+              <legend>Additional Details</legend>
+              <label class="top">Please enter additional information<br> <textarea name="addDetails" placeholder = "Type here..."
+               maxlength="2048"></textarea></label>
+            </fieldset><br>
+
+            <!-- Submit Button -->
+            <input class="submitBtn" type="submit" value="Report Storm">
+         </form>
+   
+
+
 
             <!-- Contact Info -->
             <section class = "contact">

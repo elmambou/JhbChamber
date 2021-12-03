@@ -1036,31 +1036,91 @@ footer, .contact {
   }
 }
 
+form {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+form fieldset {
+ margin: 0 auto;
+ border: 1px solid black;
+ border-radius: 10px;
+ padding: 2% 5% 2% 5%;
+}
+
+form legend {
+ color: black;
+ margin: 0 2%;
+ padding: 0 2%;
+}
+
+form label.top, form div, form label.slide {
+ display: block;
+ padding-top: 3%;
+ color: black;
+ font-size: 1.0em;
+}
+
+form label.top input, form label.top select {
+ display: block;
+ font-size: 1rem;
+ border: solid 1px black;
+ border-radius: 4px;
+ padding: .75rem;
+ color: black;
+}
+
+.flexStorm {
+ display: flex;
+ align-items: center;
+ padding-top: 5%;
+ color: black;
+ font-size: 1.0rem;
+}
+
+#ratingvalue {
+ margin: 0 15px;
+}
+
+form label.radioB {
+ display: block;
+ padding: .75rem 0;
+ color: black;
+}
+
+form label.slide input {
+ display: block;
+ font-size: 1rem;
+ border: solid 1px black;
+ border-radius: 4px;
+ padding: .75rem;
+ color: black;
+ width: 100%;
+ max-width: 20rem;
+}
 
 form input.submitBtn {
-	border: none;
-	background-color: linen;
-	color: black;
-	border-radius: 1rem;
-	padding: .75rem 1.5rem;
-	margin: 2%;
-	width: 96%;
-	max-width: 20rem;
+ border: none;
+ background-color: lightgreen;
+ color: black;
+ border-radius: 1rem;
+ padding: .75rem 1.5rem;
+ margin: 2%;
+ width: 96%;
+ max-width: 20rem;
 }
 
 form label.top input:required {
-	border-left: red solid 6px;
+ border-left: red solid 6px;
 }
 
 form label.top input:required:valid {
-	border-left: green solid 6px;
+ border-left: green solid 6px;
 }
 
 form label.top input::placeholder {
-	color: black;
+ color: black;
 }
-
-
 
 form label.top input {
  color: black;
@@ -1077,4 +1137,4 @@ form label.top textarea {
 
 form label.email input::placeholder {
  color:black;
-}  
+}
