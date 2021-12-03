@@ -1052,14 +1052,14 @@ form legend {
  margin: 0 2%;
  padding: 0 2%;
 }
-
+/*
 form label.top, form div {
  display: block;
  padding-top: 3%;
  color: black;
  font-size: 1.4em;
-}
-
+}  */
+/*
 form label.top input, form label.top select {
  display: block;
  font-size: 1rem;
@@ -1067,7 +1067,7 @@ form label.top input, form label.top select {
  border-radius: 4px;
  padding: .75rem;
  color: black;
-}
+}  */
 
 
 form input.submitBtn {
@@ -1092,12 +1092,12 @@ form label.top input:required:valid {
 form label.top input::placeholder {
  color: black;
 }
-
+/*
 form label.top input {
  color: black;
  font-family: 'Times New Roman', Times, serif;
 }
-
+*/
 form label.top textarea {
  margin: 2% 0;
  width: 100%;
@@ -1105,7 +1105,7 @@ form label.top textarea {
  height: 13%;
  font-family: 'Times New Roman', Times, serif;
 }
-
+/*
 form label.email input::placeholder {
  color:black;
-}
+}  */
