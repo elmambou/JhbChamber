@@ -1,5 +1,5 @@
 // JSON Files
-const requestURL = "https://elmambou.github.io/JhbChamber/json/temples.json";
+const requestURL = "https://elmambou.github.io/JhbChamber/json/cities.json";
 
 fetch(requestURL)
     .then(function (response){
@@ -7,9 +7,9 @@ fetch(requestURL)
     })
     .then(function(jsonObject){
 
-        const temples = jsonObject['temples'];
+        const cities = jsonObject['cities'];
         
-        for (let i = 0; i < temples.length; i++) {
+        for (let i = 0; i < cities.length; i++) {
           let card = document.createElement('section');
           let name = document.createElement('h2');
           let area= document.createElement('p');
@@ -26,21 +26,21 @@ fetch(requestURL)
           let ord3 = document.createElement('h3');
           let linebreak = document.createElement('br');
 
-          name.textContent = temples[i].name;
-          area.textContent = "Area of the City: " + temples[i].area;
-          location.textContent = "City Location: " + temples[i].location;
-          population.textContent = "Population: " + temples[i].population;
-          event.textContent = "Upcoming Events: " + temples[i].event;
-          image.setAttribute('src', temples[i].imageurl);
-          image.setAttribute('alt', "Beautiful Image of " + temples[i].name);
+          name.textContent = cities[i].name;
+          area.textContent = "Area of the City: " + cities[i].area;
+          location.textContent = "City Location: " + cities[i].location;
+          population.textContent = "Population: " + cities[i].population;
+          event.textContent = "Upcoming Events: " + cities[i].event;
+          image.setAttribute('src', cities[i].imageurl);
+          image.setAttribute('alt', "Beautiful Image of " + cities[i].name);
           contact.textContent = "City Information";
           histories.textContent = "Important Historical Facts";
           
           
           
-          for (let a = 0; a < temples[i].history.length; a++) {
+          for (let a = 0; a < cities[i].history.length; a++) {
             let hist = document.createElement('p');
-            hist.textContent = temples[i].history[a];
+            hist.textContent = cities[i].history[a];
             history.appendChild(hist);
          }
 
@@ -64,9 +64,9 @@ fetch(requestURL)
 
          let hr = document.createElement('hr');
 
-         const templeWeatherURL = "https://api.openweathermap.org/data/2.5/weather?id=" + temples[i].id + "&units=imperial&APPID=200cf102e64ee34534ad4bd4429e42bc";
+         const cityWeatherURL = "https://api.openweathermap.org/data/2.5/weather?id=" + cities[i].id + "&units=imperial&APPID=200cf102e64ee34534ad4bd4429e42bc";
 
-         fetch(templeWeatherURL)
+         fetch(cityWeatherURL)
          .then((response) => response.json())
          .then((jsObject) => {
 
