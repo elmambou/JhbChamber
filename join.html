@@ -64,27 +64,22 @@
              </fieldset><br>   -->
              <legend>Reporter Details</legend>
 
-             <!-- Full Name Input -->
-             <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label>
-
+             <!-- First and Last Name Inputs -->
+             <label class="top">First Name* <input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label>
+             <label class="top">Last Name* <input type="text" name="lastname" pattern="[A-Za-Z]{5,}" required></label>
+             <!-- Cellphone Number Input -->
+             <label class="top">Cellphone* <input type="tel" name="phone"></label>
              <!-- Email Address Input -->
-             <label class="top email">Email Address <input type="email" name="email" placeholder="someone123@company.com"></label>
-
-             <!-- Phone Number Input -->
-             <label class="top">Phone Number* <input type="tel" name="phone" required></label>
-
-             <!-- Zip Code Input -->
-             <label class="top">Zip Code* <input type="number" name="zip" required></label>
-
-          </fieldset><br> 
+             <label class="top">Email Address <input type="text" name="email" required></label>
+             <!-- Business Name Input -->
+             <label class="top">Business Name* <input type="text" name="businessname" required></label>
+             <!-- Business Address Input -->
+             <label class="address">Business Address*<input type="text" name="address"></label>
+             <!-- Business Description Input -->
+             <label class="desc">Business Description<input type="text" name="businessdescription"> </label>
+             </fieldset><br> 
              
-
-
-
-
-
-
-             <fieldset>
+            <fieldset>
                <legend>Membership Options</legend>
                      <ul class="resform">
                      <li class="date"> <label for ="joiningDate">Arrival: </label><input type="date" id="joiningDate" required></li>
