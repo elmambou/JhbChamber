@@ -1,0 +1,264 @@
+/********************************
+           Global CSS           
+********************************/
+html {
+	margin: 0 auto;
+	background-color:#240238;
+}
+
+* {
+	margin: 0;
+}
+
+/*******************************
+			Banner CSS				
+*******************************/
+
+.contact {
+	background-color: linen;
+	color: #242038;
+	text-align: center;
+}
+.logo {
+	width: 10%;
+}
+
+/*******************************
+			  Header CSS
+*******************************/
+header {
+	background-color:lightgreen;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+   font-family: "Playfair Display SC", 'Times New Roman', Times, serif;
+   color:black;
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+
+/****************************
+		Navigation Bar CSS
+****************************/
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color:darkgreen;
+	color: linen;
+}
+
+
+/*navigation*/
+
+navigation {
+  margin: 0 auto;
+  background-color: #33605a;
+  max-width: 67rem;
+}
+
+.navigation ul li.active a {
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  color: #fff;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: yellow;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.responsive li {
+	display: block;
+}
+/****************************
+         Main CSS
+****************************/
+main {
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background-color:#ffffff;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding-top: 1%;
+}
+
+h2 {
+	text-align: center;
+	color:black;
+	font-size: 1.5em;
+}
+
+.weatherName {
+	font-size: 3em;
+}
+
+form {
+	 padding-left: 3%;
+	 padding-right: 3%;
+}
+
+form fieldset {
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 2% 5% 2% 5%;
+}
+
+form legend {
+	color: black;
+	margin: 0 2%;
+	padding: 0 2%;
+}
+
+form label.top, form div, form label.slide {
+	display: block;
+	padding-top: 3%;
+	color: black;
+	font-size: 1.0em;
+}
+
+form label.top input, form label.top select {
+	display: block;
+	font-size: 1rem;
+	border: solid 1px black;
+	border-radius: 4px;
+	padding: .75rem;
+	color: black;
+}
+
+.flexStorm {
+	display: flex;
+	align-items: center;
+	padding-top: 5%;
+	color: black;
+	font-size: 1.0rem;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+}
+
+form label.radioB {
+	display: block;
+	padding: .75rem 0;
+	color: black;
+}
+
+form label.slide input {
+	display: block;
+	font-size: 1rem;
+	border: solid 1px black;
+	border-radius: 4px;
+	padding: .75rem;
+	color: black;
+	width: 100%;
+	max-width: 20rem;
+}
+
+form input.submitBtn {
+	border: none;
+	background-color: lightgreen;
+	color: black;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	margin: 2%;
+	width: 96%;
+	max-width: 20rem;
+}
+
+form label.top input:required {
+	border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+	border-left: green solid 6px;
+}
+
+form label.top input::placeholder {
+	color: black;
+}
+
+form label.top input {
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+form label.top textarea {
+	margin: 2% 0;
+	width: 100%;
+	max-width: 32rem;
+	height: 13%;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+form label.email input::placeholder {
+	color:black;
+}
+
+.google-map { width: 370px; height: 200px; padding: 10px; display: none;}
+/****************************
+		Thank You Page
+*****************************/
+.thanks {
+	background-color: linen;
+	text-align: center;
+	max-width: 70%;
+	padding: 15% 0% 15% 0%;
+	font-size: 1.5em;
+
+}
+/****************************
+			Footer CSS
+****************************/
+footer {
+
+	text-align: center;
+	background-color:lightgreen;
+	padding: 8% 0% 8% 0%;
+	font-size:larger;
+	width:100%;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin: 0 auto;
+}
+
+#byuiLink {
+	color:black;
+	text-decoration: none;
+}
+
