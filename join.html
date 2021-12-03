@@ -42,7 +42,7 @@
          <div class = "flexcontainer">
          <form method ="GET" action ="js/thankyou.js">
              <fieldset>
-                 <legend>Membership Information</legend>
+             <!--    <legend>Membership Information</legend>
                  <ul class="resform">
                   <li class="row">
                  <label for ="top">First Name*</label><input type="text" name="name" pattern="[A-Za-Z]{5,}" required></li>
@@ -59,10 +59,30 @@
                  <li class="row">
                  <label for = "website">Business website</label><input type="text" id="website"></li>
                  <li class="row">
-                 <label for = "descp">Business Description</label><input type="text" id="descp"></li>
+                 <label for = "desc">Business Description</label><input type="text" id="desc"></li>
                  </ul>
-             </fieldset><br>
-                     
+             </fieldset><br>   -->
+             <legend>Reporter Details</legend>
+
+             <!-- Full Name Input -->
+             <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label>
+
+             <!-- Email Address Input -->
+             <label class="top email">Email Address <input type="email" name="email" placeholder="someone123@company.com"></label>
+
+             <!-- Phone Number Input -->
+             <label class="top">Phone Number* <input type="tel" name="phone" required></label>
+
+             <!-- Zip Code Input -->
+             <label class="top">Zip Code* <input type="number" name="zip" required></label>
+
+          </fieldset><br> 
+             
+
+
+
+
+
 
              <fieldset>
                <legend>Membership Options</legend>

@@ -1037,6 +1037,31 @@ footer, .contact {
 }
 
 
+form input.submitBtn {
+	border: none;
+	background-color: linen;
+	color: black;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	margin: 2%;
+	width: 96%;
+	max-width: 20rem;
+}
+
+form label.top input:required {
+	border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+	border-left: green solid 6px;
+}
+
+form label.top input::placeholder {
+	color: black;
+}
+
+
+
 form label.top input {
  color: black;
  font-family: 'Times New Roman', Times, serif;
