@@ -1138,7 +1138,7 @@ form label.email input::placeholder {
 
 .box {
   background-color:#f19953;
-  font-family: "Parisienne";
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
   color:black;
   border-radius: 5px;
   padding: 50px;
