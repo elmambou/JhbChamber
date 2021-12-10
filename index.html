@@ -35,7 +35,76 @@
       </ul>
    </nav>
 
-<main>
+   <main>
+      
+
+                   <!-- Title of Preston, Idaho -->
+                   <h2 class = "townName">Fish Haven, Idaho</h2>
+
+                   <!-- Display for Town JSON data card for Upcoming Events -->
+                   <div class = "cards2"></div> 
+          
+                   <!-- Weather Summary and Hero Image-->
+                   <div class = "container weathersummary"> 
+                      <picture>
+                      <img  class = "heroimage" src = "images/fishhavenheroimage.jpg" alt = "Fish Haven Weather Highights Image">
+                      </picture>
+                      <div class = "summaryBlock">
+                         <h3>Weather Summary</h3>
+                         <p>Current: <span id = "cTemp"></span> &#8457;</p>
+                         <p>High: <span id = "hTemp"></span> &#8457;</p>
+                         <p>Wind Chill: <span id = "windchill"></span></p>
+                         <p>Humidity: <span id = "humidity"></span></p>
+                         <p>Wind Speed: <span id = "wspeed"></span> mph</p>
+                      </div>
+                   </div>
+
+                            <!-- Forecast generated through JSON and JS -->
+         <div class="forecast"></div> 
+
+
+      <class = "citymain">
+      <picture>
+         <img class = "moroni" src ="images/moronibanner.jpg" alt = "Golden Captain Moroni Blowing His Trumpet">
+      </picture>
+
+      <!-- All City Information created via JS -->
+      <h2 class = citytitle>City of Johannesburg and Chamber of Commerce</h2>
+         <section class = "citygrid">
+             <div class="cards"></div>
+         </section>
+
+
+
+     <!--local company advertisement section highlighting three local companies,
+     <picture>
+      <img class = "bannerimage" src = "images/bannerhome.jpg" alt = "City photo">
+     </picture>  -->
+     
+     <section class = "advert">
+        <h1>Local Companies Advertisement</h1><br>
+        <h2>Please click the links below</h2>
+        <div class="wrapper">
+        <a href = "https://www.checkers.co.za/"><div class="box a">Checkers SA</div></a>
+        <a href = "https://www.tigerbrands.com/"><div class="box b">Tiger Brands SA</div></a>
+        <a href ="https://www.mtnbusiness.co.za/"><div class="box c">MTN Mobile</div></a>
+        </div>
+      </section>   
+
+
+
+
+   <section class = "joinBox">
+   <h2>Joining Can Be Completed Online!</h2>
+   <a href = "join.html"><img src = "images/reservationbell.jpg" alt = "Bell on Counter for Reservation"><br></a>
+
+   <form action="join.html">
+      <button class= "joinButton" type="submit">Join Now</button>
+   </form>
+   </section>
+
+
+
    <section class = "homecity">
       <h4>Johannesburg Council Chamber</h4>
       <img src = "images/nauvotemple.jpg" alt = "Beautiful Image of the Nauvoo Temple">
@@ -47,47 +116,7 @@
          (Information and Image Provided by)<br>
          <a href = "http://www.jcci.co.za/">The Johannesburg Chamber of Commerce</a>
       </p>
-   </section>
-   <picture>
-      <img class = "bannerimage" src = "images/bannerhome.jpg" alt = "City photo">
-   </picture>
-
-   <section class = "joinBox">
-   <h2>Joining Can Be Completed Online!</h2>
-   <a href = "join.html"><img src = "images/reservationbell.jpg" alt = "Bell on Counter for Reservation"><br></a>
-
-   <form action="join.html">
-      <button class= "joinButton" type="submit">Join Now</button>
-   </form>
-   </section>
-
-   <section class = "reviews">
-   <h3>Trade Documentation</h3>
-   <p class = "left">
-    <strong>JCCI MANUAL CERTIFICATES OF ORIGIN</strong><br>
-      
-      Certificates of Origin are issued by Chambers of Commerce.  As per the International Chamber of Commerce:
-      "A Certificate of Origin is an important international trade document that certifies that goods in a particular
-      export shipment are wholly obtained, produced, manufactured or processed in a particular country. 
-      They declare the 'nationality' of the product and also serve as a declaration by the exporter to satisfy customs or trade requirements.
-   </p>
-   <p class = "right">
-      Should you need a Chamber Certificate of Origin, please contact:<br>
-      Certificate of Origin Controller - Elsie Muller   elsie@jcci.co.za or<br>
-      Trade Officer - Nqobile Maphanga nqobile@jcci.co.za
-   </p>
-   <p class = "left">
-     <strong>ELECTRONIC CERTIFICATES OF ORIGIN</strong><br>
-     JCCI has issued manual certificates of origin for decade, however, in 2015 an electronic certificate platform was introduced.
-     This has now upgraded to the next generation electronic Certificate of Origin platform, namely:  essCert.<br>
-     <strong>essCert</strong>,  our service provider, combines the best electronic solutions to offer the world’s most powerful eCO solution. 
-   </p>
-   <p class = "right">
-      To register go to https://www.esscert.com/register/  and enter the required fields<br>
-      For more information about essCert Electronic Certificates contact:<br>
-      Elsie Muller or Nqobile Maphanga  011 726-5300
-   </p>
-   </section>
+     </section>
 
 
 
@@ -117,5 +146,14 @@
 
 <!-- JS Font Load -->
 <script src = "js/webfont.js"></script>
+<!-- Load Fonts -->
+<script src = "js/cityApi.js"></script>
+
+<!-- Load Fonts -->
+<script src = "js/cityThreeDaysForecast.js"></script>
+
+<!-- Load Fonts -->
+<script src = " js/townevents.js"></script>
+
 </body>
 </html>

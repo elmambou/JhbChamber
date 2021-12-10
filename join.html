@@ -8,10 +8,12 @@
       <title>Join | Johannesburg Chamber of Commerce</title> 
 
    <!-- Importing CSS File
-   <link rel = "stylesheet" href = "css/styles.css">   -->
+  
    <link rel = "stylesheet" href = "css/joinlarge.css">   
    <link rel = "stylesheet" href = "css/joinmedium.css">   
-   <link rel = "stylesheet" href = "css/joinsmall.css">   
+   <link rel = "stylesheet" href = "css/joinsmall.css">   -->
+
+   <link rel = "stylesheet" href = "css/styles.css">   
 
 
    <!-- Importing favicon.io file -->
@@ -41,83 +43,80 @@
    </nav>
 
    <main>
+         
 
-      <!-- Header for Storm Center-->
-      <h2>Storm Center</h2>
+      
+        
+      
+      
+      
+      <class = "resmain">
+      <h2 class="resheader">Join the JCC</h2>
+      <div class = "flexcontainer">
 
          <!-- If submission successful, redirect to thanks.html with GET method-->
          <form method="GET" action="thanks.html">
 
             <!-- Reporter Details Section -->
             <fieldset>
-               <legend>Reporter Details</legend>
+               <legend>Membership Information</legend>
 
-               <!-- Full Name Input -->
-               <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label>
+               <!-- First Name Input -->
+               <label class="top">First Name* <input type="text" name="name" pattern="[A-Za-Z]{5,}" required></label>
+               <!-- Last Name Input -->
+               <label class="top">Last Name* <input type="text" name="lastname" pattern="[A-Za-Z]{5,}" required></label>
 
                <!-- Email Address Input -->
-               <label class="top email">Email Address <input type="email" name="email" placeholder="someone123@company.com"></label>
+               <label class="top email">Email Address* <input type="email" name="email" placeholder="someone123@company.com" required></label>
 
-               <!-- Phone Number Input -->
-               <label class="top">Phone Number* <input type="tel" name="phone" required></label>
+               <!-- Cellphone Number Input -->
+               <label class="top cellphone">Cell Phone Number<input type="tel" name="phone"></label>
 
-               <!-- Zip Code Input -->
-               <label class="top">Zip Code* <input type="number" name="zip" required></label>
+               <!-- Business Name Input -->
+               <label class="top">Business Name* <input type="tel" name="businessname" required ></label>
+
+               <!-- Business Address Input -->
+               <label class="top">Business Address <input type="tel" name="businessaddress"></label>
+
+               <!-- Business Website Input -->
+               <label class="top">Business Webssite <input type="tel" name="businesswebsite"></label>
+
+               <!-- Business Description Input -->
+               <label class="top">Business Description<br> <textarea name="addDetails" placeholder = "Type here..."
+                  maxlength="2048"></textarea></label>
 
             </fieldset><br>
 
             <!-- Storm Details Section -->
             <fieldset>
-               <legend>Storm Details</legend>
-
+               <legend>Membership Options</legend>
+               
                <!-- Storm Date Input -->
-               <label class="top">Storm Date <input type="date" name="stormDate"></label>
+               <!--
+               <label class="top">Storm Date <input type="date" name="stormDate"></label>  -->
 
-               <!-- Storm Type Input with datalist options -->
-               <label class="top">Storm Type<input type="text" list="storms" name="stormType"><datalist id="storms">
-                  <option value="Flash Flood">Flash Flood</option>
-                  <option value="Hail">Hail</option>
-                  <option value="Hurricane">Hurricane</option>
-                  <option value="Thunderstorm">Thunderstorm</option>
-                  <option value="Tornado">Tornado</option>
-               </datalist></label>
-
-               <!-- Storm Severity Slider -->
-               <label class="flexStorm" for="rating">Storm Severity (1 - 10)&nbsp;&nbsp;&nbsp;<input type="range" id="rating" value="5" min="1" 
-                  max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" 
-                  onchange="adjustRating(this.value)">
-                  <span id="ratingvalue">5</span>
-               </label>
-            
-               <!-- Tickmark datalist -->
-               <datalist id="tickmarks">
-               <option value="0">
-               <option value="1">
-               <option value="2">
-               <option value="3">
-               <option value="4">
-               <option value="5">
-               <option value="6">
-               <option value="7">
-               <option value="8">
-               <option value="9">
-               <option value="10">
-               </datalist>
-
-               <!-- Storm Region Selector, with Default 'Select Region' -->
-               <label class="top">Storm Region  <select name="stormRegion">
-                  <option value="">Select Region</option>
-                  <option value="fishhaven">Fish Haven</option>
-                  <option value="preston">Preston</option>
-                  <option value="sodasprings">Soda Springs</option>
-               </select></label>
-
-               <!-- User In Danger Radio Buttons -->
-               <div>User in Danger Level</div>
-               <label class="radioB"><input type="radio" name="audience" value="yes"> Yes</label>
-               <label class="radioB"><input type="radio" name="audience" value="maybe"> Maybe</label>
-               <label class="radioB"><input type="radio" name="audience" value="no"> No</label>
-            </fieldset><br>
+               <ul class="resform">
+                  <li class="date"> <label for ="joiningDate">Arrival: </label><input type="date" id="joiningDate" required></li>
+                  <li class="row"><label for = "annualFees">Membership Level</label>
+                          <select id="annualFees" name="fees"> 
+                          <option value disabled selected>Sponsorship Level</option> 
+                          <option value="1">Non-profit($100)</option>
+                          <option value="2">Bronze($200)</option>
+                          <option value="3">Silver($400)</option>
+                          <option value="4">Gold($1000)</option>
+                          </select>
+                  </li>
+                  <li class="row"><label for="membershipType">Membership Type:</label>
+                          <select id="membershipType" name="typeofmembership"> 
+                          <option value disabled selected>Membership Type</option> 
+                          <option value="listing">Directory Listings</option>
+                          <option value="training">Business Training</option>
+                          <option value="social">Social Media Post</option>
+                          <option value="luncheon">Luncheon Ticket</option>
+                          </select>
+                  </li>
+                  </ul>
+                  </fieldset><br>
 
             <!-- Additional Details Section -->
             <fieldset>
@@ -125,14 +124,14 @@
               <label class="top">Please enter additional information<br> <textarea name="addDetails" placeholder = "Type here..."
                maxlength="2048"></textarea></label>
             </fieldset><br>
-
+      
             <!-- Submit Button -->
-            <input class="submitBtn" type="submit" value="Report Storm">
-         </form>
-   
+            
+            <input class="submitBtn" type="submit" value="Submit Application">  
 
 
-
+         </form> 
+      
             <!-- Contact Info -->
             <section class = "contact">
                <h4>Contact Us</h4>
@@ -163,5 +162,7 @@
 
  <!-- Thank You Alert -->
  <script src ="js/thankyou.js"></script>
+
+
  </body>
  </html>

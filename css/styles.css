@@ -1058,7 +1058,7 @@ form label.top, form div, form label.slide {
  display: block;
  padding-top: 3%;
  color: black;
- font-size: 1.0em;
+ font-size: 1.0em; text-align: left;
 }
 
 form label.top input, form label.top select {
@@ -1068,18 +1068,6 @@ form label.top input, form label.top select {
  border-radius: 4px;
  padding: .75rem;
  color: black;
-}
-
-.flexStorm {
- display: flex;
- align-items: center;
- padding-top: 5%;
- color: black;
- font-size: 1.0rem;
-}
-
-#ratingvalue {
- margin: 0 15px;
 }
 
 form label.radioB {
@@ -1137,4 +1125,64 @@ form label.top textarea {
 
 form label.email input::placeholder {
  color:black;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-gap: 10px;
+  background-color: #2660a4;
+  color: #444; 
+  padding: 40px ; max-width: 75%;margin:1px 150px 30px 150px;
+}
+
+.box {
+  background-color:#f19953;
+  font-family: "Parisienne";
+  color:black;
+  border-radius: 5px;
+  padding: 50px;
+  font-size: 200%;
+}
+
+.weathersummary {
+	position: relative;
+	margin: 0 auto;
+}
+
+.weathersummary .heroimage {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.summaryBlock {
+	font-family: "Montserrat", 'Times New Roman', Times, serif; 
+	position: absolute;
+    top: 0.4em;
+    left: 2em;
+    background:rgb(211, 211, 211, 0.7);
+    border: 2px solid #240238;
+	color: black;
+}
+
+.summaryBlock p {
+	padding: 0;
+}
+.townName {
+	font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	padding: 2% 0% 0% 0%;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #242038;
+  color: linen;
+  margin-top: -0.3%;
+  border: 1px solid linen;
 }

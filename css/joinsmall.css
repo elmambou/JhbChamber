@@ -148,7 +148,7 @@ form legend {
 
 form label.top, form div, form label.slide {
 	display: block;
-	padding-top: 3%;
+	padding-top: 0.8%;
 	color: black;
 	font-size: 1.0em;
 }
