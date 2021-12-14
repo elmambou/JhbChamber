@@ -90,7 +90,7 @@ fetch(requestURL)
           card.appendChild(history);
            
           // Adding to information to card class
-          document.querySelector('div.cardsb').appendChild(card);
+          document.querySelector('div.cards').appendChild(card);
 
          let hr = document.createElement('hr');
 
