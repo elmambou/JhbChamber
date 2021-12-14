@@ -17,7 +17,7 @@ fetch(requestURL)
           let p2 = document.createElement('p');
           let p3 = document.createElement('p');
  
-          let p4 = document.createElement('h3');
+          let p4 = document.createElement('p');
 
           let postaladdress = document.createElement('div');
 
@@ -35,10 +35,10 @@ fetch(requestURL)
           div.setAttribute("class", "urlLink");
           card.setAttribute("class", "businessBox");
 
-          p1.innerHTML = `${directories.name}`;
-          p2.innerHTML = `${directories.address},${directories.postaladdress}`;
-          p3.innerHTML = `${directories.location}`;
-          p4.innerHTML = `${directories.telephone}`;
+          p1.innerHTML = `${directories[i].name}`;
+          p2.innerHTML = `${directories[i].address},${directories[i].postaladdress}`;
+          p3.innerHTML = `${directories[i].location}`;
+          p4.innerHTML = `${directories[i].telephone}`;
 
           div.append(p1);
           div.append(p2);
