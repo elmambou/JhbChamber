@@ -30,7 +30,7 @@ fetch(requestURL)
           //area.textContent = "Area of the City: " + directories[i].area;
           //location.textContent = "City Location: " + directories[i].location;
           //address.textContent = "Population: " + directories[i].address;
-          const imagesrc = 'directory.imageurl'
+          const imagesrc = directory.imageurl;
 
           image.setAttribute('src', imagesrc);
           image.setAttribute('alt', "Beautiful Image of " + directory.name);
