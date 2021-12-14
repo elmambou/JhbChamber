@@ -1184,5 +1184,48 @@ form label.email input::placeholder {
   background-color: #242038;
   color: linen;
   margin-top: -0.3%;
-  border: 1px solid linen;
+  border: 1px solid linen;max-width: 75%; margin-left: 190px;
 }
+
+.galleryportal {
+  margin: 0 auto;
+  width: 80%;
+}
+.galleryportal a:link, .galleryportal a:visited {
+  color: inherit;
+}
+
+main.galleryportal {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 5px;
+}
+
+.directorycontainer {
+  width: 50vw;
+  height:30vh;
+  font-family:'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px 1fr 1fr 50px;
+  gap: 10px 40px;
+  padding: 10px;
+  box-sizing:border-box ;
+
+}
+.directorycontainer div {
+  padding: 10px;
+  border: 1px solid #000000;}
+
+.cardheader1 {
+    grid-row-start: 1;
+    grid-row-end: 5;}
+
+ 
+  
+
+
+
+
+

@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+   <head>
+      <!-- Meta Information -->
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <meta name = "description" content = "Reception Page, Johannesburg Chamber of Commerce, Term Project WDD230, Elie Mambou">
+      <title>Reception | Johannesburg Chamber of Commerce</title> 
+
+   <!-- Importing CSS File -->
+   <link rel = "stylesheet" href = "css/styles.css">  
+   <link rel = "stylesheet" href = "css/gallery.css">  
+   <!-- 
+   <link rel = "stylesheet" href = "css/gallerysmall.css">   
+   <link rel = "stylesheet" href = "css/gallerymedium.css">   
+   <link rel = "stylesheet" href = "css/gallerylarge.css">   -->
+
+   <!-- Importing favicon.io file -->
+   <link rel = "shortcut icon" href = "images/favicon.ico">
+</head>
+
+<body>
+<header>
+   <!-- Logo -->
+   <picture>
+      <img class = "logo" src = "images/logo.jpg" alt = "JHB Chamber of Commerce">
+   </picture>
+   <h1 class = "headerTitle">Johannesburg Chamber of Commerce</h1>
+
+</header>
+
+ <!-- Navigation Bar -->   
+ <nav>
+      <ul class="navigation">
+         <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+         <li><a class = "active" href="index.html">Home</a></li>
+         <li><a href = "city.html">City</a></li>
+         <li><a href = "directory.html">Directory</a>
+         <li><a href = "join.html">Join</a></li>
+         <li><a href = "contact.html">Contact Us</a></li>
+      </ul>
+   </nav>
+
+   <main>
+
+    <!-- Poppy picture
+    <figure>
+       <img src = "images/placeholder.jpg" data-src = "images/sailingboat.jpg" alt = "Escape in Capetown Sea">
+       <figcaption>Sailing free in oceanr! <br>
+          &#128247; by Peter Bellas</figcaption>
+    </figure>
+    
+    <!-- Lightning picture 
+    <figure>
+       <img src = "images/placeholder.jpg" data-src = "images/botanicalgarden.jpg" alt = "Greezing at the Sisulu Botanical Garden">
+       <figcaption>This is nature! <br> 
+          &#128247; by Charles Mambou</figcaption>
+    </figure>
+
+    <!-- Dawn View picture -
+    <figure>
+       <img src = "images/placeholder.jpg" data-src = "images/gardenroute.jpg" alt = "Open Road in Fishoek">
+       <figcaption>Amazing sight! <br>
+          &#128247; by Paul Bisizi</figcaption>
+    </figure>
+
+    <!-- Open Fields picture --
+    <figure>
+       <img src = "images/placeholder.jpg" data-src = "images/singingbird.jpg" alt = "Springtime in Kruger National Park">
+       <figcaption>Spring Season in the Cape<br>
+          &#128247; by Edwige Mandzioka</figcaption>
+    </figure>
+
+    <!-- Flower picture --
+    <figure>
+       <img src = "images/placeholder.jpg" data-src = "images/watersisulugarden.jpg" alt = "Sisulu Garden in Krugersdorp">
+       <figcaption>Waterfalls in the park!<br>
+          &#128247; by Monique Bibila</figcaption>
+    </figure>
+
+    <!-- Snowy Park picture --
+    <figure>
+       <img src = "images/placeholder.jpg" data-src = "images/yosemite.jpg" alt = "Yosemite National Park">
+       <figcaption>Cold-Hearted<br>
+          &#128247; by Johanna Jacobs</figcaption>
+    </figure>
+
+    <!-- Open Road picture --
+    <figure>
+       <img src = "images/placeholder.jpg" data-src = "images/beautifullandscape.jpg" alt = "Amazing Waterfall in Georgia">
+       <figcaption>How great the Lord is!<br>
+          &#128247; by Jackson Mapassa</figcaption>
+    </figure>
+
+    <!-- Hills picture --
+    <figure>
+       <img src = "images/placeholder.jpg" data-src = "images/featherbrookhouse.jpg" alt = "Beautiful House for Sale in Krugersdorp">
+       <figcaption>This is a beautiful house<br>
+          &#128247; by Silvere Mandzioka</figcaption>
+    </figure>
+
+    <!-- Abandoned House picture --
+    <figure>
+       <img src = "images/placeholder.jpg" data-src = "images/housewater.jpg" alt = "Amazing Escape to Natural Living">
+       <figcaption>House for retreat<br>
+          &#128247; by Lea Mambou</figcaption>
+    </figure>   -->
+
+
+<!-- Header -->
+<div class="header" id="myHeader">
+    <h1>Image Grid</h1>
+    <p>Click on the buttons to change the grid view.</p>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+  </div>
+
+
+    <!-- Photo Grid -->
+<div class="row"> 
+    <div class="column">
+      <img src="images/botanicalgarden.jpg" style="width:100%">
+      <img src="images/gardenroute.jpg" style="width:100%">
+      <img src="images/singingbird.jpg" style="width:100%">
+      <img src="images/watersisulugarden.jpg"  style="width:100%">
+      <img src="images/yosemite.jpg" style="width:100%">
+      <img src="images/housewater.jpg" style="width:100%">
+    
+    </div>
+    <div class="column">
+      <img src="images/yosemite.jpg" style="width:100%">
+      <img src="images/housewater.jpg" style="width:100%">  
+      <img src="images/botanicalgarden.jpg" style="width:100%">
+      <img src="images/gardenroute.jpg" style="width:100%">
+      <img src="images/singingbird.jpg" style="width:100%">
+      <img src="images/watersisulugarden.jpg"  style="width:100%">
+     
+     
+  
+    </div>  
+    <div class="column">
+      <img src="images/watersisulugarden.jpg"  style="width:100%">
+      <img src="images/housewater.jpg" style="width:100%">  
+      <img src="images/botanicalgarden.jpg" style="width:100%">
+      <img src="images/gardenroute.jpg" style="width:100%">
+      <img src="images/singingbird.jpg" style="width:100%">
+      <img src="images/yosemite.jpg" style="width:100%">
+      
+    
+    </div>
+    <div class="column">
+        <img src="images/botanicalgarden.jpg" style="width:100%">
+        <img src="images/gardenroute.jpg" style="width:100%">
+        <img src="images/singingbird.jpg" style="width:100%">
+        <img src="images/watersisulugarden.jpg"  style="width:100%">
+        <img src="images/yosemite.jpg" style="width:100%">
+        <img src="images/housewater.jpg" style="width:100%">
+     
+        
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+ </main>
+    
+    <footer>
+          <p>&copy; Johannesburg Chamber of Commerce | <a id="byuiLink" href="https://www.byui.edu/online">BYU-Idaho Online Learning</a> | Elie Mambou</p>
+          <p>Material that helped make this site can be found here: <a href = "resources.html">Resources</a></p>
+          <p id = fullDate></p>
+    </footer>
+    
+    <!-- Web Font External JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>      
+    
+    <!-- JS Date File -->
+    <script src = "js/date.js"></script>
+    
+    <!-- Navigation 'Hamburger' Bar -->
+    <script src = "js/nav.js"></script>
+
+    <script src = "js/menu.js"></script>
+
+    <script src = "js/gallery.js"></script>
+
+
+
+    
+    <!-- Lazy Loading JavaScript -->
+    <script src = "js/lazyscript.js"></script>
+    
+    <!-- JS Load Font -->
+    <script src = "js/webfont.js"></script>
+    </body>
+    </html>
