@@ -1,6 +1,6 @@
 {
    "cities": [{
-       "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
+       "name": "Soweto Township, Gauteng Province, South Africa",
        "location": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
        "area": "24 August 1985",
        "population": "(+27) 0860 600 999",
@@ -9,7 +9,7 @@
        "event": [
          "Dec. 03: Soweto Summer Camp Fest", 
          "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
-       "imageurl": "https://elmambou.github.io/JhbChamber/images/checkerslogo.png"
+       "imageurl": "https://elmambou.github.io/JhbChamber/images/sowetotownship.jpg"
      },
      {
       "name": "Fishoek, Capetown, South Africa",
@@ -24,7 +24,7 @@
       "imageurl": "https://elmambou.github.io/JhbChamber/images/tigerbrands.jpg"
     },
     {
-      "name": "Hathfield, Suburb, Pretori, South Africa",
+      "name": "Mandela Square, Sandton, South Africa",
       "location": "South of Johannesburg, AreaWest Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
       "area": "200  km²",
       "population": ["1,271,628", "Largest Township in South Africa"],
@@ -33,7 +33,7 @@
       "event": [
         "Dec. 03: Soweto Summer Camp Fest", 
         "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
-      "imageurl": "https://elmambou.github.io/JhbChamber/images/mtn.png"
+      "imageurl": "https://elmambou.github.io/JhbChamber/images/mandelasquare.jpg"
     },
     {
       "name": "Soweto, Township in Johannesburg, South Africa",
