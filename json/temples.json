@@ -1,0 +1,63 @@
+{
+   "temples": [{
+       "name": "Johannesburg, South Africa Temple",
+       "address": "7 Jubilee Road, Parktown, Johannesburg, 2193, South Africa",
+       "dedication": "24 August 1985",
+       "telephone": "(+27) 11 645 1540",
+       "email": "jhbsatemple@ChurchOfJesusChrist.org",
+       "id": 993800,
+       "history": ["Announced: 1 April 1981", "Groundbreaking: 27 November 1982", "Dedication: 24 August 1985"],
+       "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+       "ordinances": ["Baptism", "Initiatory", "Endowment", "Sealing"],
+       "ordinanceDays": ["Friday 20 December 2019 - Saturday 21 December 2019", "27 December 2019 - 28 December 2019"],
+       "sessionHours": ["15:00 PM", "16:00 PM", "17:00 PM", "18:00 PM"],
+       "closures": ["Tuesday, 24 December 2019 - Thursday, 26 December 2019", "Sunday, 29 December 2019 - Tuesday, 31 December 2019"],
+       "imageurl": "https://mickym23.github.io/lesson13/images/joburgtemple.jpg"
+     },
+     {
+      "name": "London, England Temple",
+      "address": "West Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
+       "dedication": "7 September 1958",
+       "telephone": "(+44) 11 645 1540",
+       "email": "ldnuktemple@ChurchOfJesusChrist.org",
+       "id": 2643743,
+       "history": ["Announced: 10 August 1953", "Groundbreaking: 27 August 1955", "Dedicated: 7 September 1958", "Rededicated: 18 October 1992"],
+       "services": ["Clothing rental available", "Cafeteria available", "Patron housing available", "Distribution center nearby"],
+       "ordinances": ["Baptism", "Initiatory", "Endowment", "Sealing"],
+       "ordinanceDays": ["Friday 20 December 2019 - Saturday 21 December 2019", "27 December 2019 - 28 December 2019"],
+       "sessionHours": ["9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM"],
+       "closures": ["Tuesday, 17 December 2019 - 21 December 2019", "Tuesday, 24 December 2019 - Thursday, 26 December 2019", "Tuesday, 31 December 2019 - Thursday, 2 January 2020"],
+       "imageurl": "https://mickym23.github.io/lesson13/images/londontemple.jpg"
+    },
+    {
+      "name": "Rexburg, Idaho, United States Temple",
+      "address": "750 S 2nd E, Rexburg, ID, 83440-5404, United States",
+      "dedication": "10 February 2008",
+      "telephone": "(+1) 208 656 0880",
+      "email": "rexidtemple@ChurchOfJesusChrist.org",
+      "id": 5605242,
+      "history": ["Announced: 12 December 2003", "Groundbreaking: 30 July 2005", "10 February 2008"],
+      "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+      "ordinances": ["Baptism", "Initiatory", "Endowment", "Sealing"],
+      "ordinanceDays": ["Friday 20 December 2019 - Saturday 21 December 2019", "26 December 2019 - 28 December 2019"],
+      "sessionHours": ["6:00 AM", "6:45 AM","7:30 AM","8:15 AM","9:00 AM","9:45 AM","10:30 AM","11:15 AM","12:00 PM","12:45 PM","12:45 PM","13:30 PM","14:15 PM","15:00 PM","15:45 PM","16:30 PM","17:15 PM","18:00 PM","18:45 PM", "19:30 PM" ],
+      "closures": ["Tuesday, 24 December 2019 - Thursday, 25 December 2019", "Tuesday, 31 December 2019 - Thursday, 1 January 2020"],
+      "imageurl": "https://mickym23.github.io/lesson13/images/rexburgtemple.jpg"
+    },
+    {
+      "name": "Curitiba, Brazil Temple",
+      "address": "Rua Deputado Heitor Alencar Furtado, 3641, Mossungue, 81200-110, Curitiba - PR, Brazil",
+      "dedication": "1 June 2008",
+      "telephone": "(+55) 41 3204 6650",
+      "email": "curitibabr@ChurchOfJesusChrist.org",
+      "id": 6322752,
+      "history": ["Announced: 23 August 2002", "Groundbreaking: 10 March 2005", "1 June 2008"],
+      "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+      "ordinances": ["Baptism", "Initiatory", "Endowment", "Sealing"],
+      "ordinanceDays": ["Friday 20 December 2019 - Saturday 21 December 2019", "26 December 2019 - 28 December 2019"],
+      "sessionHours": ["12:00 PM","14:30 PM","18:45 PM","20:00 PM"],
+      "closures": ["Tuesday, 24 December 2019 - Thursday, 25 December 2019", "Tuesday, 31 December 2019 - Thursday, 1 January 2020"],
+      "imageurl": "https://mickym23.github.io/lesson13/images/curitibatemple.jpg"
+    }  
+   ]
+   }
