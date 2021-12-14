@@ -7,7 +7,7 @@ fetch(requestURL)
     })
     .then(function(jsonObject){
 
-        const directories= jsonObject['directories'];
+        const directories = jsonObject['directories'];
         
         for (let i = 0; i < directories.length; i++) {
           let card = document.createElement('section');
@@ -33,46 +33,16 @@ fetch(requestURL)
           event.textContent = "Upcoming Events: " + directories[i].event;
           image.setAttribute('src', directories[i].imageurl);
           image.setAttribute('alt', "Beautiful Image of " + directories[i].name);
-          contact.textContent = "City Information";
+          contact.textContent = "Business Information";
           histories.textContent = "Important Historical Facts";
           
           
-          for (let j = 0; j < directories[i].services.length; j++){
-            let service = document.createElement('p');
-            service.textContent = directories[i].services[j];
-            services.appendChild(service); 
-         }
-
-         for (let l = 0; l < directories[i].ordinances.length; l++) {
-            let ordinance = document.createElement('p');
-            ordinance.textContent = directories[i].ordinances[l];
-            ordinances.appendChild(ordinance);
-         }
-
-         for (let k = 0; k < directories[i].ordinanceDays.length; k++) {
-            let ordinanceDay = document.createElement('p');
-            ordinanceDay.textContent = directories[i].ordinanceDays[k];
-            ordinanceDays.appendChild(ordinanceDay);
-         }
-
-         for (let f = 0; f < directories[i].openingHours.length; f++) {
-            let opening = document.createElement('p');
-            opening.textContent = directories[i].openingHours[f];
-            openings.appendChild(opening);
-         }
-
-         for (let h = 0; h < directories[i].closures.length; h++) {
-            let closure = document.createElement('p');
-            closure.textContent = directories[i].closures[h];
-            closures.appendChild(closure);
-         }
-
-         for (let a = 0; a < directories[i].history.length; a++) {
+          
+          for (let a = 0; a < directories[i].history.length; a++) {
             let hist = document.createElement('p');
             hist.textContent = directories[i].history[a];
             history.appendChild(hist);
          }
-
 
           // Adding information under section tag 
           card.appendChild(name); 
