@@ -9,7 +9,10 @@ fetch(requestURL)
 
         const directories = jsonObject['directories'];
         
-        for (let i = 0; i < directories.length; i++) {
+        //for (let i = 0; i < directories.length; i++) {
+        const i = 0;
+
+        directories.forEach((directory) => {
           let card = document.createElement('section');
           let p1 = document.createElement('h2');
           let image = document.createElement('img');
@@ -28,17 +31,17 @@ fetch(requestURL)
           //location.textContent = "City Location: " + directories[i].location;
           //address.textContent = "Population: " + directories[i].address;
 
-          image.setAttribute('src', directories[i].imageurl);
+          image.setAttribute('src', `{directory.imageurl}`);
           image.setAttribute('alt', "Beautiful Image of " + directories[i].name);
           //telephone.textContent = "Business Information";
     
           div.setAttribute("class", "urlLink");
           card.setAttribute("class", "businessBox");
 
-          p1.innerHTML = `${directories[i].name}`;
-          p2.innerHTML = `${directories[i].address},${directories[i].postaladdress}`;
-          p3.innerHTML = `${directories[i].location}`;
-          p4.innerHTML = `${directories[i].telephone}`;
+          p1.innerHTML = `${directory.name}`;
+          p2.innerHTML = `${directory.address},${directory.postaladdress}`;
+          p3.innerHTML = `${directory.location}`;
+          p4.innerHTML = `${directory.telephone}`;
 
           div.append(p1);
           div.append(p2);
@@ -49,7 +52,8 @@ fetch(requestURL)
           card.append(div);
 
           document.querySelector("div.businessDirectory").append(card);
-      }});  
+          i++
+    })});  
 
 const list = document.querySelector(".list");
 const grid = document.querySelector(".grid");
