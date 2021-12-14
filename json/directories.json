@@ -1,51 +1,69 @@
 {
     "directories": [{
         "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
-        "location": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
-        "area": "24 August 1985",
-        "population": "(+27) 0860 600 999",
-        "id": 993800,
-        "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-        "event": [
-          "Dec. 03: Soweto Summer Camp Fest", 
-          "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
+        "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
+        "location": "24 August 1985",
+        "address": "(+27) 0860 600 999",
+        "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
+        "telephone": "0938838383",
         "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
       },
       {
-       "name": "Fishoek, Capetown, South Africa",
-       "location": "South of Johannesburg, AreaWest Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
-       "area": "200  km²",
-       "population": ["1,271,628", "Largest Township in South Africa"],
-       "id": 3369157,
-       "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-       "event": [
-         "Dec. 03: Soweto Summer Camp Fest", 
-         "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
-       "imageurl": "https://elmambou.github.io/JhbChamber/images/ballonsflying.jpg"
+        "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
+        "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
+        "location": "24 August 1985",
+        "address": "(+27) 0860 600 999",
+        "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
+        "telephone": "0938838383",
+        "imageurl": "https://elmambou.github.io/JhbChamber/images/ballonsflying.jpg"
      },
      {
-       "name": "Hathfield, Suburb, Pretori, South Africa",
-       "location": "South of Johannesburg, AreaWest Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
-       "area": "200  km²",
-       "population": ["1,271,628", "Largest Township in South Africa"],
-       "id": 964137,
-       "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-       "event": [
-         "Dec. 03: Soweto Summer Camp Fest", 
-         "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
-       "imageurl": "https://elmambou.github.io/JhbChamber/images/redbusontheroad.jpg"
+      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
+      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
+      "location": "24 August 1985",
+      "address": "(+27) 0860 600 999",
+      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
+      "telephone": "0938838383",
+      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
      },
      {
-       "name": "Soweto, Township in Johannesburg, South Africa",
-       "location": "South of Johannesburg, AreaWest Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
-       "area": "200  km²",
-       "population": ["1,271,628", "Largest Township in South Africa"],
-       "id": 993800,
-       "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-       "event": [
-         "Dec. 03: Soweto Summer Camp Fest", 
-         "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
-       "imageurl": "https://elmambou.github.io/JhbChamber/images/cake.jpg"
+      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
+      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
+      "location": "24 August 1985",
+      "address": "(+27) 0860 600 999",
+      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
+      "telephone": "0938838383",
+      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
+     },
+     
+     {
+      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
+      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
+      "location": "24 August 1985",
+      "address": "(+27) 0860 600 999",
+      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
+      "telephone": "0938838383",
+      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
+     },
+     {
+      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
+      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
+      "location": "24 August 1985",
+      "address": "(+27) 0860 600 999",
+      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
+      "telephone": "0938838383",
+      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
+     },
+     {
+      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
+      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
+      "location": "24 August 1985",
+      "address": "(+27) 0860 600 999",
+      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
+      "telephone": "0938838383",
+      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
      }  
     ]
     }
+
+    

@@ -655,10 +655,9 @@ div.cards section:nth-child(3), div.cards section:nth-child(4) {
 }
 
 .contactmain {
-  margin: 0;
-  background-color: #858585;
-  color: black;
-}
+  margin: 0 auto;
+  text-align: center;
+ }
 
 .contactmain h1 {
   font-family: 'Times New Roman', Times, serif;
@@ -686,12 +685,14 @@ div.cards section:nth-child(3), div.cards section:nth-child(4) {
 }
 
 .contactmain form {
-  text-align: left;
+  display: inline-block;
+  margin: auto;
+
 }
 
 .contactmain form label {
   display: block;
-  width: 150px;
+  width: 500px;
 }
 
 .directorytitle {
@@ -1199,33 +1200,117 @@ main.galleryportal {
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 5px;
 }
-
-.directorycontainer {
-  width: 50vw;
-  height:30vh;
-  font-family:'Quicksand', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 50px 1fr 1fr 50px;
-  gap: 10px 40px;
-  padding: 10px;
-  box-sizing:border-box ;
-
+.director {
+   border: 1px solid #000;
+  padding: 1.9%;
+  margin: 0 2% 2% 2%;
 }
-.directorycontainer div {
-  padding: 10px;
-  border: 1px solid #000000;}
-
-.cardheader1 {
-    grid-row-start: 1;
-    grid-row-end: 5;}
-
- 
   
 
+.director img {
+  box-shadow: 0 8px 20px #000;
+}
+
+.directorsb {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr; min-width: 250px;
+  max-width: 700px; margin: 0 auto;grid-gap: 20px;
+
+}
+
+.container {
+  position: relative;
+  bottom: 37px;
+}
+
+.icon {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: -10px;
+  display: flex;
+}
+
+.list,
+.grid {
+  width: 35px;
+  position: relative;
+  cursor: pointer;
+  margin: 0 10px 0 0;
+}
+
+.list span {
+  width: 30px;
+  height: 5px;
+  background: #2c3531;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+}
+
+.list span:nth-child(2) {
+  top: 15px;
+}
+
+.list span:nth-child(3) {
+  top: 25px;
+}
+
+.grid span {
+  width: 10px;
+  height: 10px;
+  background: #2c3531;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.grid span:nth-child(2) {
+  top: 20px;
+}
+
+.grid span:nth-child(3) {
+  left: 20px;
+}
+
+.grid span:nth-child(4) {
+  top: 20px;
+  left: 20px;
+}
 
 
 
+.businessDirectory
+ {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 
+.businessDirectory section
+ {
+  margin: 0 2% 2% 2%;
+  border: 1px solid #000;
+  padding: 2%;
+}
+
+.businessDirectory section {
+  background-color: #d9b08c;
+}
+
+.businessDirectory section p,
+.businessDirectory section a,
+.urlLink {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.businessDirectory.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.businessDirectory.list img {
+  display: none;
+}
