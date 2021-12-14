@@ -7,9 +7,9 @@ fetch(requestURL)
     })
     .then(function(jsonObject){
 
-        const directory = jsonObject['cities'];
+        const directories= jsonObject['directories'];
         
-        for (let i = 0; i < directory.length; i++) {
+        for (let i = 0; i < directories.length; i++) {
           let card = document.createElement('section');
           let name = document.createElement('h2');
           let area= document.createElement('p');
@@ -26,23 +26,53 @@ fetch(requestURL)
           let ord3 = document.createElement('h3');
           let linebreak = document.createElement('br');
 
-          name.textContent = cities[i].name;
-          area.textContent = "Area of the City: " + cities[i].area;
-          location.textContent = "City Location: " + cities[i].location;
-          population.textContent = "Population: " + cities[i].population;
-          event.textContent = "Upcoming Events: " + cities[i].event;
-          image.setAttribute('src', cities[i].imageurl);
-          image.setAttribute('alt', "Beautiful Image of " + cities[i].name);
+          name.textContent = directories[i].name;
+          area.textContent = "Area of the City: " + directories[i].area;
+          location.textContent = "City Location: " + directories[i].location;
+          population.textContent = "Population: " + directories[i].population;
+          event.textContent = "Upcoming Events: " + directories[i].event;
+          image.setAttribute('src', directories[i].imageurl);
+          image.setAttribute('alt', "Beautiful Image of " + directories[i].name);
           contact.textContent = "City Information";
           histories.textContent = "Important Historical Facts";
           
           
-          
-          for (let a = 0; a < cities[i].history.length; a++) {
+          for (let j = 0; j < directories[i].services.length; j++){
+            let service = document.createElement('p');
+            service.textContent = directories[i].services[j];
+            services.appendChild(service); 
+         }
+
+         for (let l = 0; l < directories[i].ordinances.length; l++) {
+            let ordinance = document.createElement('p');
+            ordinance.textContent = directories[i].ordinances[l];
+            ordinances.appendChild(ordinance);
+         }
+
+         for (let k = 0; k < directories[i].ordinanceDays.length; k++) {
+            let ordinanceDay = document.createElement('p');
+            ordinanceDay.textContent = directories[i].ordinanceDays[k];
+            ordinanceDays.appendChild(ordinanceDay);
+         }
+
+         for (let f = 0; f < directories[i].openingHours.length; f++) {
+            let opening = document.createElement('p');
+            opening.textContent = directories[i].openingHours[f];
+            openings.appendChild(opening);
+         }
+
+         for (let h = 0; h < directories[i].closures.length; h++) {
+            let closure = document.createElement('p');
+            closure.textContent = directories[i].closures[h];
+            closures.appendChild(closure);
+         }
+
+         for (let a = 0; a < directories[i].history.length; a++) {
             let hist = document.createElement('p');
-            hist.textContent = cities[i].history[a];
+            hist.textContent = directories[i].history[a];
             history.appendChild(hist);
          }
+
 
           // Adding information under section tag 
           card.appendChild(name); 
@@ -64,7 +94,7 @@ fetch(requestURL)
 
          let hr = document.createElement('hr');
 
-         const cityWeatherURL = "https://api.openweathermap.org/data/2.5/weather?id=" + cities[i].id + "&units=imperial&APPID=200cf102e64ee34534ad4bd4429e42bc";
+         const cityWeatherURL = "https://api.openweathermap.org/data/2.5/weather?id=" + directories[i].id + "&units=imperial&APPID=200cf102e64ee34534ad4bd4429e42bc";
 
          fetch(cityWeatherURL)
          .then((response) => response.json())
