@@ -9,28 +9,28 @@
         "url": "https://makro.co.za/"
       },
       {
-        "name": "MTN Business South Africa",
-        "logo": "MTN",
+        "name": "MTN SA",
+        "logo": "Makro",
         "location": "Johannesburg",
-        "address": "Corner H. Potgieter Christiaan de Wet Rd,Roodepoort, 1735",
+        "address": "Roodepoort, 1735",
         "telephone": "011 912 3000",
-        "description": " Mobile business and contracts",
+        "description": " Mobile business",
         "url": "https://mtn.co.za/"
      },
      {
       "name": "Checkers SA, South Africa",
       "logo": "Checkers",
       "location": "Countrywide",
-      "address": "Brackenfell, Western Cape, RSA",
+      "address": "Brackenfell, Western Cape",
       "telephone": "080 001 0709",
       "description": " FMCG retailer",
       "url": "https://checkers.co.za/"
      },
      {
-      "name": "Lion and Safari Park, South Africa",
+      "name": "Lion Park, SA",
       "logo": "Lion Park",
       "location": "Hartbeespoort",
-      "address": "R512 Pelindaba Rd, Hartbeespoort, Broederstroom",
+      "address": "R512 Pelindaba Rd",
       "telephone": "087 150 0100",
       "description": " Game drive and Tourism",
       "url": "https://lionandsafaripark.com/"
@@ -51,16 +51,16 @@
       "location": "Sandton",
       "address": "4 Helen Rd, Sandton",
       "telephone": "011 883 4633",
-      "description": " Gym, classes and fitness",
+      "description": " Gym, and fitness",
       "url": "https://virginactive.co.za/"
      },
      {
-      "name": "Matrix Warehouse Computers",
+      "name": "Matrix Warehouse",
       "logo": "Matrix",
       "location": "Shop 30244 Monument",
-      "address": "244 Voortrekker Rd, Monument",
+      "address": "244 Voortrekker Rd",
       "telephone": "011 954 1500",
-      "description": "Sale of Computers equipment",
+      "description": "Computers equipment",
       "url": "https://matrixwarehouse.co.za/"
      }  
     ]

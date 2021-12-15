@@ -598,7 +598,7 @@ main {
 
 .moroni {
   margin: 0 auto;
-  width: 100%;
+  width: 75%;
 }
 
 .citytitle {
@@ -919,10 +919,7 @@ footer, .contact {
   .homecity h4 {
     font-size: 1.5rem;
   }
-  .moroni {
-    margin: 0;
-    width: 75%;
-  }
+
   .citytitle {
     width: 75%;
   }
@@ -933,17 +930,18 @@ footer, .contact {
   div.cards img {
     width: 80%;
   }
+  .googlemaps {
+    padding-left: 5%;
+    width: 450px;
+    height: 350px;
+  }
 
 
   .contactmain {
     margin: 0 auto;
     max-width: 75%;
   }
-  .directorygrid {
-    max-width: 80%;
-    display: grid;
-    grid-template-columns: auto auto;
-  }
+ 
   .amenities {
     display: grid;
   }
@@ -1252,11 +1250,22 @@ main.galleryportal {
   box-shadow: 0 5px 15px #000;
 }
 
+
 .businessDirectory
  {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
+} 
+/*
+.businessDirectory
+ {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 50%;
+  margin: 0 auto;
+ 
+} */
 
 .businessDirectory section
  {
@@ -1279,19 +1288,52 @@ main.galleryportal {
 
 .businessDirectory.list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 90%; position: center;
-
-
-  grid-template-columns: 1fr 1fr 1fr; min-width: 300px;
-  max-width: 800px; margin: 0 auto;grid-gap: 20px;
+  grid-template-columns: 1fr;
+  width: 50%; 
+  margin:0 auto;
 
 }
 
 .businessDirectory.list img {
-  max-width: 100%;}
-
-
-.businessDirectory.list img {
-  display: none;
+  display: none; 
 }
+
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+  /*----------- BODY --------------*/
+
+
+  .businessDirectory.list div,
+  .businessDirectory.list p {
+    /* width: 95%; */
+    text-align: left;
+  }
+
+  .businessDirectory.list img {
+    display: block;
+  }
+
+  .businessDirectory section a {
+    font-size: 1.3rem;
+  }
+
+  .businessDirectory.list img {
+    float: right;
+  }
+
+  .businessDirectory.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+      }
+   .businessDirectory
+      {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-gap: 10px;
+       width: 50%;
+       margin: 0 auto;
+      
+     } 
+
+} /* end of media query */
+
