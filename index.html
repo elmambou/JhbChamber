@@ -37,10 +37,7 @@
 
    <main>
 
-
-      
-
-                   <!-- Title of Preston, Idaho -->
+                       <!-- Title of Preston, Idaho -->
                    <h2 class = "townName">Johannesburg, Gauteng Province</h2>
 
                    <!-- Display for Town JSON data card for Upcoming Events -->
@@ -52,11 +49,14 @@
                         <img class = "moroni" src ="images/moronibanner.jpg" alt = "Golden Captain Moroni Blowing His Trumpet">
                       </picture>
                       <div class = "summaryBlock">
-                         <h3>Weather Summary</h3>
-                         <p>Temperature:  <span id="temp"><span id="current-temp"> </span> &#8457;</span></p>
-                         <p>Conditions: <span id = "condition"></span> &#8457;</p>
-                         <p>Humidity: <span id = "humidity"></span></p>
+                        <h3>Weather Summary</h3>
+                        <p>Current: <span id = "cTemp"></span> &#8457;</p>
+                        <p>High: <span id = "hTemp"></span> &#8457;</p>
+                        <p>Wind Chill: <span id = "windchill"></span></p>
+                        <p>Humidity: <span id = "humidity"></span></p>
+                        <p>Wind Speed: <span id = "wspeed"></span> mph</p>
                      </div>
+                  </div>
 
                   
                             <!-- Forecast generated through JSON and JS 
@@ -138,7 +138,7 @@
 <!-- Load Fonts -->
 <script src = "js/cityApi.js"></script>
 
-<!-- Load Fonts -->
+<!-- 3 Day Forecast JS -->
 <script src = "js/threedayforecast.js"></script>
 
 <!-- Load Fonts -->

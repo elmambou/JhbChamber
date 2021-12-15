@@ -1120,25 +1120,12 @@ form label.email input::placeholder {
 	margin: 0 auto;
 }
 
-.weathersummary .heroimage {
+.weathersummary .moroni {
 	max-width: 100%;
 	width: 100%;
 	height: auto;
 }
 
-.summaryBlock {
-	font-family: "Montserrat", 'Times New Roman', Times, serif; 
-	position: absolute;
-    top: 50px;
-    left: 50px;
-    background:rgb(211, 211, 211, 0.7);
-    border: 2px solid #240238;
-	color: black;
-}
-
-.summaryBlock p {
-	padding: 0;
-}
 .townName {
 	font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
 	margin: 0 auto;
@@ -1345,6 +1332,19 @@ section.forecast {
   padding: 2%;
 }
 
+.summaryBlock {
+	font-family: "Montserrat", 'Times New Roman', Times, serif; 
+	position: absolute;
+    top: 0.4em;
+    left: 2em;
+    background:rgb(211, 211, 211, 0.7);
+    border: 2px solid #240238;
+	color: black;
+}
+
+.summaryBlock p {
+	padding: 0;
+}
 
 /* 35em is also 560px (if basefont is 16px) */
 @media only screen and (min-width: 35rem) {
@@ -1385,6 +1385,14 @@ section.forecast {
 
 
     
+
+
+
+
+
+
+
+
 
 } /* end of media query */
 
