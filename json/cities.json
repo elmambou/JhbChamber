@@ -1,50 +1,53 @@
 {
    "cities": [{
-       "name": "Soweto Township, Gauteng Province, South Africa",
-       "location": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
-       "area": "24 August 1985",
-       "population": "(+27) 0860 600 999",
-       "id": 993800,
-       "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-       "event": [
-         "Dec. 03: Soweto Summer Camp Fest", 
-         "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
-       "imageurl": "https://elmambou.github.io/JhbChamber/images/sowetotownship.jpg"
-     },
-     {
-      "name": "Fishoek, Capetown, South Africa",
-      "location": "South of Johannesburg, AreaWest Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
-      "area": "200  km²",
-      "population": ["1,271,628", "Largest Township in South Africa"],
-      "id": 3369157,
-      "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "event": [
-        "Dec. 03: Soweto Summer Camp Fest", 
-        "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
-      "imageurl": "https://elmambou.github.io/JhbChamber/images/jhbcity.jpg"
-    },
-    {
-      "name": "Mandela Square, Sandton, South Africa",
-      "location": "South of Johannesburg, AreaWest Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
-      "area": "200  km²",
-      "population": ["1,271,628", "Largest Township in South Africa"],
-      "id": 964137,
-      "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "event": [
-        "Dec. 03: Soweto Summer Camp Fest", 
-        "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
-      "imageurl": "https://elmambou.github.io/JhbChamber/images/mandelasquare.jpg"
-    },
-    {
       "name": "Soweto, Township in Johannesburg, South Africa",
       "location": "South of Johannesburg, AreaWest Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
       "area": "200  km²",
       "population": ["1,271,628", "Largest Township in South Africa"],
       "id": 993800,
-      "history": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
+      "history": ["Urban settlement in southwest of Johannesburg", "Soweto was created in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
       "event": [
-        "Dec. 03: Soweto Summer Camp Fest", 
-        "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
+      "Dec. 03: Soweto Summer Camp Fest", 
+      "Nov. 25 - Jan.02: Festival of lights at Joburg Zoo" ],
+       "imageurl": "https://elmambou.github.io/JhbChamber/images/sowetotownship.jpg"
+     },
+     {
+      "name": "Johannesburg City Center, South Africa",
+      "location": "Johannesburg Inner City",
+      "area": "1 645 km²",
+      "population": ["5.7 million", "Black African (76.4%), Coloured (5.6%), White (12.3%) and Indian/Asian (4.9%)."],
+      "id": 3369157,
+      "history": ["Johannesburg, South Africa's biggest city and capital of Gauteng province, began as a 19th-century gold-mining settlement."],
+      "event": [
+        "Dec. 15: Vintage Sociey", 
+        "Dec 18: Jozy Food and Music Festival" ],
+      "imageurl": "https://elmambou.github.io/JhbChamber/images/jhbcity.jpg"
+    },
+    {
+      "name": "Mandela Square, Sandton, South Africa",
+      "location": "South of Johannesburg, AreaWest Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
+      "area": "144 km²",
+      "population": [" 5.6 million", "Largest Township in South Africa"],
+      "id": 964137,
+      "history": ["Sandton is an affluent area in the Gauteng Province, South Africa and forms part of the City."],
+      "event": [
+        "Dec. 17: Magical Italian Village of lights", 
+        "Jan. 19: Willy Russel's Shirley Valentine",
+        "Feb. 13 - Montecasino Classico" ],
+      "imageurl": "https://elmambou.github.io/JhbChamber/images/mandelasquare.jpg"
+    },
+    {
+      "name": "Water Sisulu Botanical Gardens, South of Johannesburg",
+      "location": "Malcolm Rd, Poortview, Roodepoort, 1724",
+      "area": "200  km²",
+      "population": ["1,271,628", "Largest Township in South Africa"],
+      "id": 993800,
+      "history": ["Is home to an abundance of wildlife with about 240 bird species recorded on site",
+                  "Was founded in 1982, and has been a popular venue for outings since the 1800’s.",
+                  "Voted as the best place to get back to nature in Gauteng for several years in a row."],                 
+     "event": [
+         "Dec. 23: Bruidsgids Expo4Brides", 
+         "Jan. 22: Botanical Garden Parkrun."],
       "imageurl": "https://elmambou.github.io/JhbChamber/images/botanicalgarden.jpg"
     }  
    ]

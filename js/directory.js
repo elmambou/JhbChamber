@@ -9,8 +9,8 @@ fetch(requestURL)
 
         const directories = jsonObject['directories'];
         
-        //for (let i = 0; i < directories.length; i++) {
-        const i = 0;
+        let i = 0; i < directories.length; i++;
+      
 
         directories.forEach((directory) => {
 
@@ -53,7 +53,7 @@ fetch(requestURL)
 
     document.querySelector("div.businessDirectory").append(businessBox);
 
-    count += 1;
+    i += 1;
   });
 });
 
