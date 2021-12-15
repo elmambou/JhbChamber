@@ -10,7 +10,7 @@
       },
       {
         "name": "MTN SA",
-        "logo": "Makro",
+        "logo": "MTN",
         "location": "Johannesburg",
         "address": "Roodepoort, 1735",
         "telephone": "011 912 3000",
@@ -28,7 +28,7 @@
      },
      {
       "name": "Lion Park, SA",
-      "logo": "Lion Park",
+      "logo": "lionsafari",
       "location": "Hartbeespoort",
       "address": "R512 Pelindaba Rd",
       "telephone": "087 150 0100",
@@ -38,7 +38,7 @@
      
      {
       "name": "SAB Miller, South Africa",
-      "logo": "SAB Miller",
+      "logo": "sabmiller",
       "location": "Johannesburg",
       "address": "krugersdorp, West Rand",
       "telephone": "011 389 1000",
@@ -47,7 +47,7 @@
      },
      {
       "name": "Virgin Active",
-      "logo": "Virgin active",
+      "logo": "virginactive",
       "location": "Sandton",
       "address": "4 Helen Rd, Sandton",
       "telephone": "011 883 4633",
@@ -56,7 +56,7 @@
      },
      {
       "name": "Matrix Warehouse",
-      "logo": "Matrix",
+      "logo": "matrix",
       "location": "Shop 30244 Monument",
       "address": "244 Voortrekker Rd",
       "telephone": "011 954 1500",

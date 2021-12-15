@@ -36,6 +36,8 @@
    </nav>
 
    <main>
+
+
       
 
                    <!-- Title of Preston, Idaho -->
@@ -51,14 +53,12 @@
                       </picture>
                       <div class = "summaryBlock">
                          <h3>Weather Summary</h3>
-                         <p>Current: <span id = "cTemp"></span> &#8457;</p>
-                         <p>High: <span id = "hTemp"></span> &#8457;</p>
-                         <p>Wind Chill: <span id = "windchill"></span></p>
+                         <p>Temperature:  <span id="temp"><span id="current-temp"> </span> &#8457;</span></p>
+                         <p>Conditions: <span id = "condition"></span> &#8457;</p>
                          <p>Humidity: <span id = "humidity"></span></p>
-                         <p>Wind Speed: <span id = "wspeed"></span> mph</p>
-                      </div>
-                   </div>
+                     </div>
 
+                  
                             <!-- Forecast generated through JSON and JS 
          <div class="forecast"></div> -->
 
@@ -72,6 +72,19 @@
       <section class = "citygrid">
              <div class="cards"></div>
          </section>  -->
+         <table class="forecast">
+            <tr>
+                <th id="dayofweek1"></th>
+                <th id="dayofweek2"></th>
+                <th id="dayofweek3"></th>
+            </tr>
+            <tr>
+                <td><img id = "icon1"> <br><span id="forecast1"></span></td>
+                <td><img id = "icon2"> <br><span id="forecast2"></span></td>
+                <td><img id = "icon3"> <br><span id="forecast3"></span></td>
+            </tr>
+          </table>      
+
 
       <div class = "gallerys">
          <section class = "galleryportal">
@@ -146,7 +159,7 @@
 <script src = "json/cities.json"></script>
 
 <!-- Load Fonts -->
-<script src = "js/cityThreeDaysForecast.js"></script>
+<script src = "js/cityforecast.js"></script>
 
 <!-- Load Fonts -->
 <script src = " js/townevents.js"></script>
