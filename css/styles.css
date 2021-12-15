@@ -1145,18 +1145,6 @@ form label.email input::placeholder {
 	padding: 2% 0% 0% 0%;
 }
 
-/*.forecast {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 5px;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  background-color: #242038;
-  color: linen;
-  margin-top: -0.3%;
-  border: 1px solid linen;max-width: 75%; margin-left: 190px;
-}*/
-
 .galleryportal {
   margin: 0 auto;
   width: 80%;

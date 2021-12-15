@@ -1,3 +1,11 @@
+const apiKey = "d26fd24f1d08cf466081800bd5bc4381";
+// Lat & Lon for Cardston, Alberta, Canada
+const lat = "27.2046";
+const lon = "77.4977";
+
+const apiURL = `//api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`;
+
+
 // This will help with todays day name is
 const theweekday = new Array(7);
 theweekday[0] = "Sunday";
