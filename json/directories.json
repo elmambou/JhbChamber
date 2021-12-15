@@ -1,67 +1,67 @@
 {
     "directories": [{
-        "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
-        "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
-        "location": "24 August 1985",
+        "name": "Makro Strubens Valley",
+        "logo": "Makro",
+        "location": "Roodepoort",
         "address": "(+27) 0860 600 999",
-        "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-        "telephone": "0938838383",
-        "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
+        "telephone": "0860 600 999",
+        "description": "Online shopping",
+        "url": "https://makro.co.za/"
       },
       {
-        "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
-        "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
-        "location": "24 August 1985",
-        "address": "(+27) 0860 600 999",
-        "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-        "telephone": "0938838383",
-        "imageurl": "https://elmambou.github.io/JhbChamber/images/ballonsflying.jpg"
+        "name": "MTN Business South Africa",
+        "logo": "MTN",
+        "location": "Johannesburg",
+        "address": "Corner H. Potgieter Christiaan de Wet Rd,Roodepoort, 1735",
+        "telephone": "011 912 3000",
+        "description": " Mobile business and contracts",
+        "url": "https://mtn.co.za/"
      },
      {
-      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
-      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
-      "location": "24 August 1985",
-      "address": "(+27) 0860 600 999",
-      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "telephone": "0938838383",
-      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
+      "name": "Checkers SA, South Africa",
+      "logo": "Checkers",
+      "location": "Countrywide",
+      "address": "Brackenfell, Western Cape, RSA",
+      "telephone": "080 001 0709",
+      "description": " FMCG retailer",
+      "url": "https://checkers.co.za/"
      },
      {
-      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
-      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
-      "location": "24 August 1985",
-      "address": "(+27) 0860 600 999",
-      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "telephone": "0938838383",
-      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
+      "name": "Lion and Safari Park, South Africa",
+      "logo": "Lion Park",
+      "location": "Hartbeespoort",
+      "address": "R512 Pelindaba Rd, Hartbeespoort, Broederstroom",
+      "telephone": "087 150 0100",
+      "description": " Game drive and Tourism",
+      "url": "https://lionandsafaripark.com/"
      },
      
      {
-      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
-      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
-      "location": "24 August 1985",
-      "address": "(+27) 0860 600 999",
-      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "telephone": "0938838383",
-      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
+      "name": "SAB Miller, South Africa",
+      "logo": "SAB Miller",
+      "location": "Johannesburg",
+      "address": "krugersdorp, West Rand",
+      "telephone": "011 389 1000",
+      "description": " Brewing Company",
+      "url": "https://sab.co.za/"
      },
      {
-      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
-      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
-      "location": "24 August 1985",
-      "address": "(+27) 0860 600 999",
-      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "telephone": "0938838383",
-      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
+      "name": "Virgin Active",
+      "logo": "Virgin active",
+      "location": "Sandton",
+      "address": "4 Helen Rd, Sandton",
+      "telephone": "011 883 4633",
+      "description": " Gym, classes and fitness",
+      "url": "https://virginactive.co.za/"
      },
      {
-      "name": "Makro Strubens Valley, Roodepoort, Gauteng Province, South Africa",
-      "logo": "Shop 76B, Clearwater Mall, Corner Hendrik Potgieter, and Christiaan De Wet Roads, Roodepoort 1709, South Africa",
-      "location": "24 August 1985",
-      "address": "(+27) 0860 600 999",
-      "postaladdress": ["Urban settlement in southwest of Johannesburg", "Soweto was creaed in 1930", "Was the centre of political campaigns aimed at the overthrow of the apartheid state"],
-      "telephone": "0938838383",
-      "imageurl": "https://elmambou.github.io/JhbChamber/images/womeninpaddles.jpg"
+      "name": "Matrix Warehouse Computers",
+      "logo": "Matrix",
+      "location": "Shop 30244 Monument",
+      "address": "244 Voortrekker Rd, Monument",
+      "telephone": "011 954 1500",
+      "description": "Sale of Computers equipment",
+      "url": "https://matrixwarehouse.co.za/"
      }  
     ]
     }
