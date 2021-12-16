@@ -1,0 +1,44 @@
+{
+    "towns": [
+      {
+        "name": "Johannesburg",
+        "location": "Soweto",
+        "date": "1 Jan 2022",
+        "time": "11:00 am - 8:00 pm",
+        "events": "Dec. 4: Marriage counselling"
+            
+      },
+      {
+        "name": "Pretoria",
+        "location": "Marizburg",
+        "date": "9 Jan 2022",
+        "time": "5:00 pm", 
+        "events":"Dec. 23: Bruidsgids Expo4Brides"
+
+      },
+      {
+        "name": " Benoni",
+        "location": "Cresta Mall",
+        "date": "11 Jan 2022",
+        "time": "10:00 am",
+        "events": "Dec. 17: Magical Italian Village of lights"
+      },
+      {
+        "name": "Krugersdorp",
+        "location": "Montecasino",
+        "date": "31 Dec. 2021",
+        "time": "3:30 pm",
+        "events": ["Jan. 19: Willy Russel's Shirley Valentine",
+            "Feb. 13 - Montecasino Classico" ]
+      },
+      {
+        "name": "Johannesburg",
+        "location": "Parktown",
+        "date": "8 Feb. 2021",
+        "time": "9:00 pm - 7:00 pm",
+        "events": [ "Dec. 23: Bruidsgids Expo4Brides", 
+            "Jan. 22: Botanical Garden Parkrun."]
+      }
+    ]
+  }
+  
