@@ -1110,7 +1110,7 @@ form label.email input::placeholder {
 .box {
   background-color:#f19953;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-  color:blue;
+  color:black;
   border-radius: 5px;
   padding: 60px;
   font-size: 200%;
@@ -1251,7 +1251,7 @@ main.galleryportal {
 }
 
 .businessDirectory section {
-  background-color:#85b5c5;
+  background-color:#edf7f6;
 }
 
 .businessDirectory section p,
