@@ -68,28 +68,3 @@ grid.addEventListener("click", () => {
   businessDirectory.classList.remove("list");
 });
 
-         /* 
-          for (let a = 0; a < directories[i].postaladdress.length; a++) {
-            let hist = document.createElement('p');
-            hist.textContent = directories[i].postaladdress[a];
-            postaladdress.appendChild(hist);
-         }
-
-          // Adding information under section tag 
-          card.appendChild(name); 
-          card.appendChild(image);
-          card.appendChild(telephone);      
-          card.appendChild(location); 
-
-          card.appendChild(address);
-     
-          card.appendChild(postaladdress);
-           
-          // Adding to information to card class
-          document.querySelector('div.cards').appendChild(card);
-
-         let hr = document.createElement('hr');
-
-  
-     
-      }});*/

@@ -598,7 +598,7 @@ main {
 
 .moroni {
   margin: 0 auto;
-  width: 75%;
+  width: 75%; 
 }
 
 .citytitle {
@@ -976,7 +976,8 @@ footer, .contact {
 
 
 
-
+  .businessAds section h2,
+  .businessAds section p,
   .businessDirectory section a {
       font-size: 1.5rem;
   }
@@ -1276,7 +1277,7 @@ main.galleryportal {
 
 
 
-
+.businessAds,
 .forecastWrapper {
   margin: 0 2%;
 }
@@ -1321,11 +1322,13 @@ section.forecast {
   background-color: #d1e8e2;
   padding: 0;
 }
+
+.businessAds,
 .forecastBox {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-
+.businessAds section,
 .forecast {
   margin: 0 2% 2% 2%;
   border: 1px solid #000;

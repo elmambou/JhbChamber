@@ -12,8 +12,8 @@ theweekday[6] = "Saturday";
 
 fetch(apiURL)
   .then((response) => response.json())
-  .then((dayForecast) => {
-    const threedayforecast = dayForecast.daily;
+  .then((jsObject) => {
+    const threedayforecast = jsObject.daily;
 
     let day = 0;
 
