@@ -403,9 +403,6 @@ menu {
 /*
  * Add the correct display in all browsers.
  */
-summary {
-  display: list-item;
-}
 
 /* Scripting
    ========================================================================== */
@@ -1116,16 +1113,7 @@ form label.email input::placeholder {
   font-size: 200%;
 }
 
-.weathersummary {
-	position: relative;
-	margin: 0 auto;
-}
 
-.weathersummary .moroni {
-	max-width: 100%;
-	width: 100%;
-	height: auto;
-}
 
 .townName {
 	font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
@@ -1266,77 +1254,100 @@ main.galleryportal {
 
 
 
-.businessAds,
-.forecastWrapper {
+.businessAds {
   margin: 0 2%;
 }
 
-.forecastWrapper {
-  display: block;
-  margin: 0 2%;
+/* Companies */
+.companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-.forecastWrapper div {
-  width: 100%;
-  padding: 0;
+.companies > div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  margin: 0 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.forecastWrapper h3 {
-  background-color: #2c3531;
-  color: #d1e8e2;
+.companies > div:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.forecastWrapper h3,
-.forecastWrapper h4 {
-  font-size: 2rem;
-  padding: 10px 0;
+.companies > div img {
+  object-fit: contain;
+  filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.7));
 }
 
-.forecastWrapper h3,
-.forecastWrapper h4 {
-  margin: 0;
-  text-align: center;
-}
 
-.forecastWrapper img {
-  width: 50%;
-  margin: 0 auto;
-}
-
-div.forecastBox {
-  text-align: center;
-}
-
-section.forecast {
-  background-color: #d1e8e2;
-  padding: 0;
-}
-
-.businessAds,
-.forecastBox {
+.businessAds{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-.businessAds section,
-.forecast {
+.businessAds section
+ {
   margin: 0 2% 2% 2%;
   border: 1px solid #000;
   padding: 2%;
 }
-
-.summaryBlock {
-	font-family: "Montserrat", 'Times New Roman', Times, serif; 
-	position: absolute;
-    top: 0.4em;
-    left: 2em;
-    background:rgb(211, 211, 211, 0.7);
-    border: 2px solid #240238;
-	color: black;
+/* Current Weather */
+.currentWeather {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.75rem 1.5rem;
+  background-color:#edf7f6;
+  color:black;
 }
 
-.summaryBlock p {
-	padding: 0;
+.currentWeather p,
+h4 {
+  margin: 5px 0;
 }
+
+.currentWeather :first-child {
+  grid-column: 1 / -1;
+  margin-bottom: 10px;
+}
+
+
+/* Weather Forecast */
+.forecast-box {
+  width: max-content;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 80px);
+  gap: 20px; /* grid-gap is deprecated */
+  margin: 2rem auto 0;
+}
+
+.forecast-box h4,
+.forecast p {
+  margin: 0;
+}
+
+.forecast-box > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo1 {
+	width: 10%;
+}
+
+
+
+
+
 
 /* 35em is also 560px (if basefont is 16px) */
 @media only screen and (min-width: 35rem) {
@@ -1375,11 +1386,12 @@ section.forecast {
       
      } 
 
+     .logo1 {
+      width: 5%;
+    }
+
 
     
-
-
-
 
 
 
