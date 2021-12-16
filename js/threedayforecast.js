@@ -1,83 +1,70 @@
+const requestUrl ="https://api.openweathermap.org/data/2.5/onecall?lat=26.0963&lon=27.8077&exclude=minutely,hourly&units=imperial&appid=d26fd24f1d08cf466081800bd5bc4381";
 
-const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=40.3898999&lon=-111.8478224&?&units=imperial&appid=9f5541804c0cbd0a629c5facccc2de31";
-// This will help with todays day name is
-const theweekday = new Array(7);
-theweekday[0] = "Sunday";
-theweekday[1] = "Monday";
-theweekday[2] = "Tuesday";
-theweekday[3] = "Wednesday";
-theweekday[4] = "Thursday";
-theweekday[5] = "Friday";
-theweekday[6] = "Saturday";
-
-fetch(apiURL)
+fetch(requestUrl)
   .then((response) => response.json())
-  .then((jsObject) => {
-    const threedayforecast = jsObject.daily;
+  .then((jsonObject) => {
+    const currentWeather = jsonObject.current;
+    const dailyForecast = jsonObject.daily.slice(0, 3);
+    alerts = jsonObject.alerts;
 
-    let day = 0;
+    // Update only Homepage
+    if (
+      location.pathname.includes("index") ||
+      location.pathname.endsWith("JhbChamber/")
+    ) {
+      document.getElementById("desc").textContent =
+        currentWeather.weather[0].description;
+      document.getElementById("temp").textContent =
+        currentWeather.temp + "\xB0F";
 
-    threedayforecast.forEach((theDay) => {
-      if (day == 0) {
-        day++;
-        return false;
+      document.getElementById("humidity").textContent = currentWeather.humidity;
+      document.getElementById("windSpeed").textContent =
+        currentWeather.wind_speed;
+    }
+
+    // Check for alerts
+    handleAlerts();
+
+    // Weather Forecast
+    const d = new Date();
+
+    const todayDayNumber = d.getDay();
+
+    const weekday = new Array(7);
+    weekday[0] = "Sunday";
+    weekday[1] = "Monday";
+    weekday[2] = "Tuesday";
+    weekday[3] = "Wednesday";
+    weekday[4] = "Thursday";
+    weekday[5] = "Friday";
+    weekday[6] = "Saturday";
+
+    let forecastDayNumber = todayDayNumber;
+
+    dailyForecast.forEach((weather) => {
+      forecastDayNumber += 1;
+      if (forecastDayNumber === 7) {
+        forecastDayNumber = 0;
       }
-      if (day <= 3) {
-        let d = new Date(theDay.dt * 1000);
+      const forecastItem = document.createElement("div");
+      forecastItem.classList = "forecast-item";
+      const dayName = document.createElement("h4");
+      dayName.textContent = weekday[forecastDayNumber];
 
-        let section = document.createElement("section");
-        let div = document.createElement("div");
-        let h3 = document.createElement("h3");
-        let h41 = document.createElement("h4");
-        let h42 = document.createElement("h4");
-        let img = document.createElement("img");
+      const iconPath =
+        "//openweathermap.org/img/wn/" + weather.weather[0].icon + "@2x.png";
+      const icon = document.createElement("img");
+      icon.src = iconPath;
+      icon.alt = weather.weather[0].description;
 
-        section.setAttribute("class", "forecast");
-        div.setAttribute("class", "forecastBox");
+      const temp = document.createElement("p");
+      temp.textContent = weather.temp.day + "\xB0F";
 
-        // Sets the day name
-        h3.innerHTML = theweekday[d.getDay()];
-        h3.setAttribute("class", `forecast${day + 1}`);
+      forecastItem.appendChild(dayName);
+      forecastItem.appendChild(icon);
+      forecastItem.appendChild(temp);
 
-        // Sets the image src url
-        const imagesrc = `//openweathermap.org/img/wn/${threedayforecast[day].weather[0].icon}@2x.png`;
-
-        // Sets the weather icon description
-        const desc = threedayforecast[day].weather[0].description.replace(
-          /(^\w{1})|(\s+\w{1})/g,
-          (letter) => letter.toUpperCase()
-        );
-
-        // Calculates temperature in Fahrenheit
-        //const temp = Math.round(threedayforecast[day].temp.max.toFixed(0));
-
-        // Calculates temperature in Celcuis
-        const temp = Math.round(
-          (5 / 9) * (threedayforecast[day].temp.max.toFixed(0) - 32)
-        );
-
-        img.setAttribute("class", `div.iconBox${day + 1}`);
-        img.setAttribute("src", imagesrc);
-        img.setAttribute("alt", desc);
-
-        // Displays temperature in fahrenheit
-        //h41.innerHTML = `${temp}&deg;F`;
-
-        // Displays temperature in celcuis
-        h41.innerHTML = `${temp}&deg;C`;
-
-        h41.setAttribute("class", `tempDay${day + 1}`);
-
-        h42.innerHTML = `${desc}`;
-
-        section.append(h3);
-        section.append(h42);
-        section.append(img);
-        section.append(h41);
-
-        document.querySelector("div.forecastBox").appendChild(section);
-
-        day++;
-      }
+      document.querySelector(".forecast-box").appendChild(forecastItem);
     });
   });
+
