@@ -1,5 +1,5 @@
 // BYU-I JSON URL Link for Home Page Town Data
-const requestURL ="https://byui-cit230.github.io/weather/data/towndata.json";
+const requestURL ="https://elmambou.github.io/JhbChamber/json/cityevents.json";
 
 fetch (requestURL)
    .then (function (response) {
@@ -7,13 +7,13 @@ fetch (requestURL)
    }) .then (function(jsonObject) {
 
       // Access 'towns' JSON array
-      const arr = jsonObject['towns'];
+      const towns = jsonObject['towns'];
 
-/************************************************************ Preston ********************************************************/
-      for (let i = 0; i < arr.length; i++) {
+/************************************************************ Johannesburg********************************************************/
+      for (let i = 0; i < towns.length; i++) {
 
-            // Calling for Preston JSON data
-          if (arr[i].name === "Preston") {  
+            // Calling for Johannesburg JSON data
+          if (towns[i].name === "Johannesburg") {  
           
           // Creating different HTML tag variables
           let card = document.createElement('section');
@@ -27,9 +27,9 @@ fetch (requestURL)
 
           // Storing JSON data in HTML tag variables
           h1.textContent = "Upcoming Events";
-          p1.textContent = arr[i].events[0];
-          p2.textContent = arr[i].events[1];
-          p3.textContent = arr[i].events[2];  
+          p1.textContent = towns[i].events[0];
+          p2.textContent = towns[i].events[1];
+          p3.textContent = towns[i].events[2];  
           
           // Creating entire content text
           text.appendChild(h1);
@@ -43,6 +43,6 @@ fetch (requestURL)
           card.appendChild(text);
 
           // Apply to .cards class 
-          document.querySelector('div.cards').appendChild(card);
+          document.querySelector('div.cards1').appendChild(card);
           }}});
 
