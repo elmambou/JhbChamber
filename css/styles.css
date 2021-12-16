@@ -601,8 +601,8 @@ main {
 .citytitle {
   margin: 0 auto;
   width: 100%;
-  color: #edf7f6;
-  background-color: #2660a4;
+  color:black;
+  background-color:#edf7f6;
   margin-top: -0.3%;
   padding: 2% 0% 2% 0%;
   font-family: "Parisienne";
@@ -1251,6 +1251,21 @@ main.galleryportal {
   display: none; 
 }
 
+.cards1 {
+	text-align: center;
+	color: black;
+	padding-bottom: 2%;
+} 
+
+.cards1 h1{
+	padding-top: 4%;
+	font-size: 1.2em;
+}
+
+.cards1 hr {
+	display: block;
+}
+
 
 
 
@@ -1389,6 +1404,20 @@ h4 {
      .logo1 {
       width: 5%;
     }
+	
+	
+    .cards1 h1{
+      padding-top: 1%;
+    }
+  
+    .cards1 p {
+      padding: 1%;
+    }
+  
+    .cards1 hr {
+      display: block;
+    }
+  
 
 
     
