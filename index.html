@@ -37,57 +37,55 @@
 
    <main>
 
-                       <!-- Title of Johaanesburg City -->
-                   <h2 class = "townName">Johannesburg, Gauteng Province</h2>
+              
 
+                  <!-- All City Information created via JS -->
+               <h2 class = citytitle>City of Johannesburg and Chamber of Commerce</h2>
           
                    <!-- Weather Summary and Hero Image-->
-                   <div class = "container weathersummary"> 
+                  <div class = "container-weathersummary">
                       <picture>
-                        <img class = "moroni" src ="images/moronibanner.jpg" alt = City of Johannesburg">
+                        <img class = "moroni" src ="images/moronibanner.jpg" alt = "Golden Captain Moroni Blowing His Trumpet">
                       </picture>
-                      <div class = "summaryBlock">
-                        <h3>Weather Summary</h3>
-                        <p>Current: <span id = "cTemp"></span> &#8457;</p>
-                        <p>High: <span id = "hTemp"></span> &#8457;</p>
-                        <p>Wind Chill: <span id = "windchill"></span></p>
-                        <p>Humidity: <span id = "humidity"></span></p>
-                        <p>Wind Speed: <span id = "wspeed"></span> mph</p>
-                     </div>
+                    <div class ="currentWeather">
+                     <h4>Today's Weather:</h4>
+                     <p>Currently: <span id="desc"></span></p>
+                     <p>Temperature: <span id="temp"></span></p>
+                     <p>Humidity: <span id="humidity"></span></p>
+                     <p>Wind Speed: <span id="windSpeed"></span></p>
+                    </div>
                   </div>
+                   
 
-                  
-                            <!-- Forecast generated through JSON and JS 
-         <div class="forecast"></div> -->
-
-
-      <class = "citymain">
-
-
-      <!-- All City Information created via JS -->
-      <h2 class = citytitle>City of Johannesburg and Chamber of Commerce</h2>
-      <!--  
-      <section class = "citygrid">
-             <div class="cards"></div>
-         </section>   -->
-     
+                 <!-- Forecast generated through JSON and JS -->
+                <section id="forecast">
+                <h2>Weather Forecast</h2>
+                <hr>
+                <div class="forecast-box"></div>
+                </section>          
         
+               <div id="businessWrapper">
+                 <h1>Business Ads</h1>
+                 <div class="businessAds"></div>
+               </div>
         
-         <div id="businessWrapper">
-            <h1>Business Ads</h1>
-            <div class="businessAds"></div>
-         </div>
-        
-         <h1>Weather forecast</h1>
-         <div class="forecastWrapper">
-           <div class="forecastBox"></div>
-         </div> 
+
+
+                   <section id="awards">
+                     <h2>Successful Companies, December 2021</h2>
+                     <hr>
+                     <div class="companies">
+                       <div><img src="images/checkers.jpg" alt="Retails and Foods"></div>
+                       <div><img src="images/MTN.jpg" alt="MTN"></div>
+                       <div><img src="images/makro.jpg" alt="Retail Industry"></div>
+                     </div>
+                   </section>
 
   
 
 
    <section class = "joinBox">
-   <h2>Joining Can Be Completed Online!</h2>
+   <h2>Membership Admission Can Be Completed Online!</h2>
    <a href = "join.html"><img src = "images/banner2.jpg" alt = "Bell on Counter for Reservation"><br></a>
 
    <form action="join.html">
@@ -108,7 +106,7 @@
          training and business advisory services</p>.. <br>
          (Information and Image Provided by)<br>
          <a href = "http://www.jcci.co.za/">The Johannesburg Chamber of Commerce</a>
-      </p>
+      
      </section>
 
 
@@ -119,7 +117,14 @@
      <p>
       &#9742;: +27 011 726 5300 <br>
       &#9993;: info@jcci.co.za <br>
+      <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo1" src = "images/facebooklogo.png" alt = "Facebook Logo"></a>
+      <a class = "socialmedia" href = "#" target = "_blank"><img class = "logo1" src = "images/instagramlogo.png" alt = "Instagram Logo"></a></p>
+      
      </section>  
+
+
+
+
 </main>
 
 <footer>
